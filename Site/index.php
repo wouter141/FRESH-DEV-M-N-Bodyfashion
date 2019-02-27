@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./components/index.css">
   </head>
   <body>
-    <img src="./components/images/header.jpg" alt="#" class="header-img">
-    <?php
-      include './Footer.php';
-      include './Header.php';
-      include './Navbar.php';
-    ?>
+    <img class="header" src="./components/images/header.jpg" alt="">
+      <?php
+        include './Navbar.php';
+        include './Header.php';
+        include './Footer.php';
+      ?>
   </body>
 </html>

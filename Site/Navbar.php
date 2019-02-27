@@ -3,7 +3,7 @@
 
     <div class="Home Menu-Button">
       <a href="./index.php">
-          <img class="Home-Logo" src="./components/images/Logo.png" alt="#">
+          <img class="Home-Logo" src="./components/images/Logo.png" alt="">
       </a>
     </div>
 
