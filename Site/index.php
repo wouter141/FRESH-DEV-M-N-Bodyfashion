@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" href="./components/nav.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <?php
