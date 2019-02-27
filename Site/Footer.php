@@ -8,7 +8,7 @@
   </body>
   <footer>
     <div class="footer">
-      <img src="images/Logo.png"></img>
+      <img src="./components/images/Logo.png"></img>
     </div>
   </footer>
 </html>
