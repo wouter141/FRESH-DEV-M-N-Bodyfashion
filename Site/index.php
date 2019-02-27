@@ -5,13 +5,14 @@
     <title>Home</title>
     <link rel="stylesheet" href="./components/nav.css">
     <link rel="stylesheet" href="./components/FooterCSS.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./components/index.css">
   </head>
   <body>
+    <img src="./components/images/header.jpg" alt="#" class="header-img">
     <?php
-      include './components/Footer.php';
-      include './components/Header.php';
-      include './components/Navbar.php';
+      include './Footer.php';
+      include './Header.php';
+      include './Navbar.php';
     ?>
   </body>
 </html>
