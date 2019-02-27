@@ -1,4 +1,4 @@
-<nav>
+<!--<nav>
   <div class="nav-Container">
 
     <div class="Home Menu-Button">
@@ -39,4 +39,21 @@
 
 
   </div>
-</nav>
+</nav>-->
+<?php
+    // Define each name associated with an URL
+    $urls = array(
+        'Home' => '/FRESH-DEV-M-N-Bodyfashion/Site/',
+        'Over Ons' => '/FRESH-DEV-M-N-Bodyfashion/Site/OverOns.php',
+        'Merken' => '/FRESH-DEV-M-N-Bodyfashion/Site/Merken.php',
+        'Spaarsysteem' => '/FRESH-DEV-M-N-Bodyfashion/Site/Spaarsysteem.php',
+        'Acties' => '/FRESH-DEV-M-N-Bodyfashion/Site/Acties.php',
+        'Contact' => '/FRESH-DEV-M-N-Bodyfashion/Site/Contact.php',
+        // …
+    );
+
+    foreach ($urls as $name => $url) {
+        print '<li '.(($currentPage === $name) ? ' class="active" ': '').
+            '><a href="'.$url.'">'.$name.'</a></li>';
+    }
+?>
