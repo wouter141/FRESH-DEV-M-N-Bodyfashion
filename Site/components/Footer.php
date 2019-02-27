@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Footer</title>
-    <link rel="stylesheet" href="FooterCSS.css">
   </head>
   <body>
   </body>

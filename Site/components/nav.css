@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 20px;
 
 }
 
 .Home-Logo {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 50px;
 }
