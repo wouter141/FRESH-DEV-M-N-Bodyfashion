@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 40px;
   position: relative;
-  z-index: 1;
+  padding: 40px;
+  z-index: 6;
   left: 0px;
 }
 
@@ -15,13 +15,13 @@
 }
 
 .headImg {
-    position: absolute;
-    top: 0px;
+    display: flex;
+    position: relative;
+    z-index: 5;
+    top: -108px;
     height: 500px;
     width: 100%;
     filter: brightness(50%);
-    z-index: 0;
-    left: 0px;
 }
 
 .mainBox{
@@ -31,7 +31,7 @@
 }
 
 .itemBoxes{
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 300px;
   background-color: red;
@@ -40,6 +40,7 @@
   align-items: center;
 }
 .boxes  {
+  top: 15000px;
   height: 250px;
   width: 300px;
   background-color: blue;

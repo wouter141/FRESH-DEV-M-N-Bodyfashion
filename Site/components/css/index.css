@@ -1,4 +1,7 @@
 html {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   box-sizing: border-box;
 }
@@ -12,6 +15,4 @@ html {
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 6rem;
-  min-height: 100%;
 }

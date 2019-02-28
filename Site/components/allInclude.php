@@ -1,6 +1,5 @@
 <?php include('./components/header.php'); ?>
 <?php include('./components/Navbar.php'); ?>
-<?php include('./components/Footer.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

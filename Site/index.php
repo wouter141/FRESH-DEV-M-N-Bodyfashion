@@ -9,8 +9,7 @@
 
   </head>
   <body>
-      <img class="headImg" src="./components/images/header.jpg" alt="">
-
+    <img class="headImg" src="./components/images/header.jpg" alt="">
     <div class="mainBox">
       <div class="itemBoxes">
         <div class="boxes boxItem1">
@@ -24,5 +23,7 @@
         </div>
       </div>
     </div>
+
+    <?php include('./components/Footer.php'); ?>
   </body>
 </html>
