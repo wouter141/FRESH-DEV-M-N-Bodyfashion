@@ -13,40 +13,10 @@
   text-decoration: none;
   font-size: 20px;
 }
-
 .headImg {
-    display: flex;
     position: relative;
-    z-index: 5;
-    top: -108px;
+    top: 0;
     height: 500px;
     width: 100%;
     filter: brightness(50%);
-}
-
-.mainBox{
-  height: 300px;
-  background-color: green;
-}
-
-.itemBoxes{
-  position: absolute;
-  width: 100%;
-  height: 300px;
-  background-color: red;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.boxes  {
-  height: 250px;
-  width: 300px;
-  background-color: blue;
-  display: flex;
-}
-.boxItem1 {
-}
-.boxItem2 {
-}
-.boxItem3 {
 }

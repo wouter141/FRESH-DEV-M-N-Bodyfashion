@@ -1,7 +1,7 @@
 <?php
     // Define each name associated with an URL
     $urls = array(
-        'Home' => '/FRESH-DEV-M-N-Bodyfashion/Site/',
+        '<img src="./components/images/Logo.png">' => '/FRESH-DEV-M-N-Bodyfashion/Site/',
         'Over Ons' => '/FRESH-DEV-M-N-Bodyfashion/Site/OverOns.php',
         'Merken' => '/FRESH-DEV-M-N-Bodyfashion/Site/Merken.php',
         'Spaarsysteem' => '/FRESH-DEV-M-N-Bodyfashion/Site/Spaarsysteem.php',
