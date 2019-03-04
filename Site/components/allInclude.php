@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./components/css/nav.css">
     <link rel="stylesheet" href="./components/css/FooterCSS.css">
     <link rel="stylesheet" href="./components/css/index.css">
+    <link rel="stylesheet" href="./components/css/contentHome.css">
+    <link rel="stylesheet" href="./components/css/contentMerken.css">
   </head>
   <body>
 
