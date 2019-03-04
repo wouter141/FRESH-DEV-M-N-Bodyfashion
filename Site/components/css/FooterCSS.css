@@ -8,3 +8,9 @@
   background-color: #d30000;
   text-align: center;
 }
+
+.footer img{
+  width: 10%;
+  position: relative;
+  right: 46%;
+}
