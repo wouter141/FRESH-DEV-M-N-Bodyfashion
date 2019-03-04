@@ -13,13 +13,10 @@
     <div class="mainBox">
       <div class="itemBoxes">
         <div class="boxes boxItem1">
-          Hi
         </div>
         <div class="boxes boxItem2">
-          Hi
         </div>
         <div class="boxes boxItem3">
-          Hi
         </div>
       </div>
     </div>
