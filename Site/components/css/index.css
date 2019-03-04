@@ -20,11 +20,16 @@ body {
 .mainBox{
   height: 300px;
   background-color: green;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 500px;
 }
 
 .itemBoxes{
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 300px;
   background-color: red;
   display: flex;

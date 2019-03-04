@@ -14,7 +14,7 @@
   font-size: 20px;
 }
 .headImg {
-    position: relative;
+    position: absolute;
     top: 0;
     height: 500px;
     width: 100%;
