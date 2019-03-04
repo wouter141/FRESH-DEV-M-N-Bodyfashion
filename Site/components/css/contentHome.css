@@ -1,0 +1,32 @@
+.mainBox{
+  display: flex;
+  justify-content: center;
+}
+
+.itemBoxes{
+  box-shadow: 10px 10px 10px #404040;
+  position: relative;
+  width: 99%;
+  background-color: #d1d1d1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  -webkit-border-radius: 60px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 30px;
+}
+
+.boxes  {
+  height: 280px;
+  width: 280px;
+  background-color: #dcdcdc;
+  display: flex;
+  -webkit-border-radius: 30px;
+}
+.boxItem1 {
+}
+.boxItem2 {
+}
+.boxItem3 {
+}
