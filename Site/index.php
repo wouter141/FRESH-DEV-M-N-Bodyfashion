@@ -9,7 +9,13 @@
 
   </head>
   <body>
-    <img class="headImg" src="./components/images/header.jpg" alt="">
+    <div id="captioned-gallery">
+      <figure class="slider">
+        <figure>
+          <img src=".\components\images\image.png" alt="a">
+        </figure>
+      </figure>
+    </div>
     <div class="mainBox">
       <div class="itemBoxes">
         <div class="boxes boxItem1">

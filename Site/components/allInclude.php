@@ -11,6 +11,5 @@
     <link rel="stylesheet" href="./components/css/contentMerken.css">
   </head>
   <body>
-
   </body>
 </html>
