@@ -13,13 +13,26 @@
       <h2 class="subtitle">Bekijk alle kledingmerken die wij verkopen</h2>
       Of u nu op zoek bent naar Lingerie, badmode of nachtmode, M&N Bodyfashion heeft het allemaal voor zowel dames als heren!<br>
       De volgende merken kunt u bij M&N Bodyfashion vinden:
-    </div>
-    <div class="merkenAll">
-      <div class="merkVrouwen">
-      </div>
+      <div class="merkenAll">
+<!--Vrouwen Mode-->
+        <div class="merkVrouwen">
+          <div class="merkVrouwenTitle">
 
-      <div class="merkHeren">
-      </div>
+          </div>
+          <div class="merkVrouwenContent">
+
+          </div>
+        </div>
+<!--Heren Mode-->
+        <div class="merkHeren">
+          <div class="merkHerenTitle">
+            <h2>Heren</h2>
+          </div>
+          <div class="merkHerenContent">
+
+          </div>
+        </div>
+    </div>
     </div>
   </body>
 </html>
