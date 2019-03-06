@@ -12,17 +12,28 @@
     <div id="captioned-gallery">
       <figure class="slider">
         <figure>
-          <img src=".\components\images\image.png" alt="a">
+          <img src=".\components\images\slider\image.png" alt="a">
         </figure>
-      </figure>
+        <figure>
+          <img src=".\components\images\slider\image.png" alt="a">
+        </figure>
+        <figure>
+          <img src=".\components\images\slider\image.png" alt="a">
+        </figure>
+        <figure>
+          <img src=".\components\images\slider\image.png" alt="a">
+        </figure>
     </div>
     <div class="mainBox">
       <div class="itemBoxes">
         <div class="boxes boxItem1">
+          <img class="boxImages" src="./components/images/index.jpg" alt="">
         </div>
         <div class="boxes boxItem2">
+          <img class="boxImages" src="./components/images/index2.jpg" alt="">
         </div>
         <div class="boxes boxItem3">
+          <img class="boxImages" src="./components/images/index3.jpg" alt="">
         </div>
       </div>
     </div>

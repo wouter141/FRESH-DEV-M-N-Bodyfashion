@@ -1,11 +1,21 @@
-.accordion {
-  width: 60%;
-  max-width: 1080px;
+.accordionFlex{
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordionHeren, .accordionDames{
+  width: 100%;
   height: 250px;
   overflow: hidden;
-  margin: 50px auto;
   text-align: center;
+  margin-top: 50px;
   border: 1px solid black;
+}
+
+.accordionDames{
+  height: 660px;
 }
 
 .MainUL {
@@ -19,9 +29,8 @@
 
 .MainLI {
   display: table-cell;
-  position: relative;
   width: 34%;
-  height: 250px;
+  height: 100%;
 }
 
 .accordion-img{
@@ -38,11 +47,18 @@
   text-align: center;
 }
 
-.accordion .MainUL .MainLI:hover{
+.accordionHeren .MainUL .MainLI:hover{
   position: relative;
   width: 66%;
   color: black;
-  height: 250px;
+  height: 100%;
+}
+
+.accordionDames .MainUL .MainLI:hover{
+  position: relative;
+  width: 66%;
+  color: black;
+  height: 100%;
 }
 
 .accordion-img:hover .noText{
