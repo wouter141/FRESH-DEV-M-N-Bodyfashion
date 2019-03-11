@@ -87,7 +87,7 @@
               </div>
               <div class="Merken">
                 <ul>
-                  <li class="MerkSpecific">Börn Borg</li>
+                  <li class="MerkSpecific">Björn Borg</li>
                   <li class="MerkSpecific">Calvin Klein</li>
                   <li class="MerkSpecific">Hom</li>
                   <li class="MerkSpecific">Mey</li>
@@ -103,7 +103,7 @@
               </div>
               <div class="Merken">
                 <ul>
-                  <li class="MerkSpecific">Börn Borg</li>
+                  <li class="MerkSpecific">Björn Borg</li>
                   <li class="MerkSpecific">Calvin Klein</li>
                   <li class="MerkSpecific">Hom</li>
                   <li class="MerkSpecific">Mey</li>
@@ -125,7 +125,7 @@
               </div>
               <div class="Merken">
                 <ul>
-                  <li class="MerkSpecific">Börn Borg</li>
+                  <li class="MerkSpecific">Björn Borg</li>
                   <li class="MerkSpecific">Calvin Klein</li>
                   <li class="MerkSpecific">Hom</li>
                   <li class="MerkSpecific">Mey</li>
@@ -171,4 +171,5 @@
       </div>
     </div>
   </body>
+  <?php include('./components/Footer.php'); ?>
 </html>
