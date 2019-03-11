@@ -1,67 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css.css">
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
   </head>
   <body>
-
-    <div class="accordion">
-      Herenmode
-      <ul class="MainUL">
-        <li class="MainLI">
-          <div class="accordion-img" id="nr1">
-            <div class="noText">
-              Nachtmode
-            </div>
-            <div class="Merken">
-              <ul>
-                <li class="MerkSpecific">Börn Borg</li>
-                <li class="MerkSpecific">Calvin Klein</li>
-                <li class="MerkSpecific">Hom</li>
-                <li class="MerkSpecific">Mey</li>
-                <li class="MerkSpecific">Taubert</li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li class="MainLI">
-          <div class="accordion-img" id="nr2">
-            <div class="noText">
-              Badmode
-            </div>
-            <div class="Merken">
-              <ul>
-                <li class="MerkSpecific">Börn Borg</li>
-                <li class="MerkSpecific">Calvin Klein</li>
-                <li class="MerkSpecific">Hom</li>
-                <li class="MerkSpecific">Mey</li>
-                <li class="MerkSpecific">Brunotti</li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li class="MainLI">
-          <div class="accordion-img" id="nr3">
-            <div class="noText">
-              OnderMode
-            </div>
-            <div class="Merken">
-              <ul>
-                <li class="MerkSpecific">Börn Borg</li>
-                <li class="MerkSpecific">Calvin Klein</li>
-                <li class="MerkSpecific">Hom</li>
-                <li class="MerkSpecific">Mey</li>
-                <li class="MerkSpecific">Sloggi</li>
-              </ul>
-            </div>
-          </div>
-        </li>
-
-      </ul>
-    </div>
-
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
   </body>
 </html>

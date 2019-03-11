@@ -10,7 +10,9 @@
   <body>
     <div class="accordionFlex">
       <div class="accordionDames">
-        Damesmode
+        <div class="Titles">
+          Damesmode
+        </div>
         <ul class="MainUL">
           <li class="MainLI">
             <div class="accordion-img">
@@ -116,7 +118,9 @@
 
       </div>
       <div class="accordionHeren">
-        Herenmode
+        <div class="Titles">
+          Herenmode
+        </div>
         <ul class="MainUL">
           <li class="MainLI">
             <div class="accordion-img">

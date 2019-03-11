@@ -1,6 +1,6 @@
 .accordionFlex{
-  position: absolute;
-  top: 100px;
+  position: relative;
+  top: 120px;
   left: 30px;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,7 @@
   text-align: center;
   margin-top: 50px;
   border: 1px solid black;
+  transition: width 2s, height 4s;
 }
 
 .MainUL {
@@ -28,6 +29,8 @@
   display: table-cell;
   width: 34%;
   height: 100%;
+  color: white;
+  background-color: #A29060;
 }
 
 .accordion-img{
@@ -44,18 +47,20 @@
   text-align: center;
 }
 
+.Titles {
+  background-color: #333333;
+  color: white;
+}
+
 .accordionHeren .MainUL .MainLI:hover{
   position: relative;
   width: 66%;
-  color: black;
-  transition: width 2s, height 4s;
 }
 
 .accordionDames .MainUL .MainLI:hover{
   position: relative;
   transition: width 2s, height 4s;
   width: 66%;
-  color: black;
   height: 100%;
 }
 
