@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 100%;
   padding-top: 10%;
+  align-items: center;
 }
 
 .accordionHeren, .accordionDames{
@@ -13,7 +14,6 @@
   text-align: center;
   margin-top: 50px;
   border: 1px solid black;
-  transition: width 2s, height 4s;
 }
 
 .MainUL {
@@ -55,6 +55,7 @@
 .accordionHeren .MainUL .MainLI:hover{
   position: relative;
   width: 66%;
+  transition: width 2s, height 4s;
 }
 
 .accordionDames .MainUL .MainLI:hover{
