@@ -12,7 +12,7 @@
     <div id="captioned-gallery">
       <figure class="slider">
         <figure>
-          <img src=".\components\images\slider\image.png" alt="a">
+          <img src=".\components\images\slider\M&N Slider 4.png" alt="a">
         </figure>
         <figure>
           <img src=".\components\images\slider\image.png" alt="a">

@@ -19,8 +19,12 @@
               </div>
               <div class="Merken">
                 <ul>
-                  <li class="MerkSpecific">a</li>
-                  <li class="MerkSpecific">b</li>
+                  <li class="MerkSpecific">Calvin Klein</li>
+                  <li class="MerkSpecific">Cyell</li>
+                  <li class="MerkSpecific">Jensen</li>
+                  <li class="MerkSpecific">Mey</li>
+                  <li class="MerkSpecific">SNURK</li>
+                  <li class="MerkSpecific">Taubert</li>
                 </ul>
               </div>
             </div>

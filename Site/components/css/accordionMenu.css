@@ -1,21 +1,18 @@
 .accordionFlex{
   position: absolute;
   top: 100px;
+  left: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .accordionHeren, .accordionDames{
-  width: 100%;
-  height: 250px;
+  width: 80%;
+  height: 100%;
   overflow: hidden;
   text-align: center;
   margin-top: 50px;
   border: 1px solid black;
-}
-
-.accordionDames{
-  height: 660px;
 }
 
 .MainUL {
@@ -51,11 +48,12 @@
   position: relative;
   width: 66%;
   color: black;
-  height: 100%;
+  transition: width 2s, height 4s;
 }
 
 .accordionDames .MainUL .MainLI:hover{
   position: relative;
+  transition: width 2s, height 4s;
   width: 66%;
   color: black;
   height: 100%;
@@ -72,4 +70,5 @@
 
 #nr2{
 border: 1px solid black;
+border-bottom: 0px;
 }
