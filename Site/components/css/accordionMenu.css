@@ -1,9 +1,9 @@
 .accordionFlex{
   position: relative;
-  top: 120px;
-  left: 30px;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding-top: 10%;
 }
 
 .accordionHeren, .accordionDames{
