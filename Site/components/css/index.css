@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dcdcdc;
   font-family: 'IM Fell Great Primer SC';font-size: 22px;
+  height: 100%;
 }
 
 *,
@@ -11,14 +12,8 @@ html {
 }
 
 body {
-  position: relative;
-  margin: 0;
+  width: 100%;
 }
-* {
-  box-sizing: border-box;
-}
-
-
 
 @import url(https://fonts.googleapis.com/css?family=Istok+Web);
 @keyframes slidy {
