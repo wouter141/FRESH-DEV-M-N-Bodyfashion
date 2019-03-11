@@ -4,13 +4,18 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: #d30000;
+  background-color: #333333;
+  color: white;
   text-align: center;
 }
 
-.footer img{
-  width: 10%;
+.footeropening{
   position: relative;
-  right: 46%;
+  width: 50%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black
+}
+
+.footeropening img{
+  width: 20%;
 }
