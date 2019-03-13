@@ -1,0 +1,43 @@
+.nav-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    padding: 40px;
+    z-index: 6;
+    left: 0px;
+    width: 100%;
+}
+
+.navButton {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+body, figure {
+  margin: 0;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery {
+  width: 100%;
+  overflow: hidden;
+}
+figure.slider {
+  position: relative; width: 400%;
+  font-size: 0; animation: 30s slidy infinite;
+}
+figure.slider figure {
+  width: 25%; height: auto;
+  display: inline-block; position: inherit;
+}
+figure.slider img { width: 100%; height: 550px; }
+figure.slider figure { top: 0; width: 25%;
+  font-size: 2rem; padding: 0;
+}
+
+
+.Logo-Nav {
+    width: 100px;
+}
