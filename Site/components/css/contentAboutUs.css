@@ -1,8 +1,23 @@
-.contactForm{
+.OverOns-Uitleg{
   position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 70px;
+  padding-bottom: 10px;
   align-items: center;
+}
+
+.AllePersonen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.Personen{
+  width: 29%;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 20px;
 }
