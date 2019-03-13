@@ -7,7 +7,6 @@
     <?php $metaTags = 'tag1 tag2'; ?>
     <?php $currentPage = 'index'; ?>
     <?php include('./components/AllInclude.php'); ?>
-    <script src="components/javascript/index.js"></script>
   </head>
   <body>
     <div class="accordionFlex">

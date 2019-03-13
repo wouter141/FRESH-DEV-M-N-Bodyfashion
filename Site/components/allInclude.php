@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./components/css/contentMerken.css">
     <link rel="stylesheet" href="./components/css/accordionMenu.css">
     <link rel="stylesheet" href="./components/css/contentAboutUs.css">
-  </head>
+    <link rel="stylesheet" href="components/css/index.css">
+    <link rel="stylesheet" href="components/css/contentMain.css">
   <body>
   </body>
+</head>
 </html>

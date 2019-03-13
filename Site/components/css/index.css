@@ -1,76 +1,7 @@
+html, body {
+  max-width: 100%;
+}
 * {
   margin: 0;
   padding: 0;
-}
-
-.wrapper {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.banner {
-  background: url('../../components/images/slider/image.png');
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
-  z-index: 0;
-}
-
-.body-text {
-  position: relative;
-  z-index: 10;
-  padding-top: 7rem;
-}
-
-  h1 {
-    font-family: sans-serif;
-    padding-top: 2rem;
-  }
-
-  p {
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    color: #777;
-    padding: 2rem 0;
-    line-height: 2rem;
-  }
-
-
-nav {
-  background: none;
-  min-height: 85px;
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
-  width: 100%;
-  z-index: 20;
-}
-  ul {
-  list-style: none;
-  padding: 2rem;
-}
-  li {
-    display: inline-block;
-    color: black;
-    padding: 0 1rem;
-    font-family: sans-serif;
-}
-    a {
-      color: red;
-      text-decoration: none;
-    }
-
-.scrolled {
-  min-height: 10px;
-  background: black;
-}
-  ul {
-    padding: 1rem 2rem;
-  }
-
-  li {
-    color: red;
-  }
 }

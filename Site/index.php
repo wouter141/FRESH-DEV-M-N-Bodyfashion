@@ -7,17 +7,17 @@
     <?php $metaTags = 'tag1 tag2'; ?>
     <?php $currentPage = 'index'; ?>
     <?php include('./components/AllInclude.php'); ?>
-    <link rel="stylesheet" href="components/css/index.css"></link>
     <script src="components/javascript/index.js"></script>
+    <link rel="stylesheet" href="components/css/index-Navigatie.css">
   </head>
   <body>
       <div class="banner"></div>
       <div class="body-text">
         <div class="wrapper">
-          <h1>M&N Bodyfashion</h1>
-          <p>Huts
+          <h1 class="Main-Title">M&N Bodyfashion</h1>
+          <p class="Main-Paragraaf">Huts</p>
 
-          <p>Huts
+          <p class="Main-Paragraaf">Huts</p>
           </div>
         </div>
     <?php include('./components/Footer.php'); ?>
