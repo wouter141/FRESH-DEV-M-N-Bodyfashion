@@ -1,14 +1,10 @@
-body
-{
-  padding:0;margin:0;
-}
-a {
-    color: #6195FF;
+.linkfooter {
+    color: #6195F F;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
 }
-a:hover, a:focus {
+.linkfooter:hover, .linkfooter:focus {
     text-decoration: none;
     outline: none;
     opacity: 0.8;
@@ -26,9 +22,10 @@ a:hover, a:focus {
     margin-bottom: 40px;
 }
 
-.footer-logo>a>img {
-    max-height: 80px;
+.footer-logo img{
+  height: 150px;
 }
+
 .footer-follow {
     text-align: center;
     margin-bottom: 20px;
