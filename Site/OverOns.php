@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <?php $title = 'Over Ons'; ?>
-    <?php $metaTags = 'tag1 tag2'; ?>
-    <?php $currentPage = 'index'; ?>
+    <title>Over Ons</title>
     <?php include('./components/AllInclude.php'); ?>
     <meta charset="utf-8">
     <title></title>

@@ -3,9 +3,7 @@
   <head>
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <?php $title = 'Merken'; ?>
-    <?php $metaTags = 'tag1 tag2'; ?>
-    <?php $currentPage = 'index'; ?>
+    <title>Merken</title>
     <?php include('./components/AllInclude.php'); ?>
   </head>
   <body>
