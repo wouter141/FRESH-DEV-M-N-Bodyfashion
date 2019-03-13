@@ -6,12 +6,10 @@
 						<img src="components/images/Logo.png">
 					</div>
 					<ul class="footer-follow">
-						<li><a class="linkfooter" href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a class="linkfooter" href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a class="linkfooter" href="#"><i class="fa fa-google-plus"></i></a></li>
-						<li><a class="linkfooter" href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a class="linkfooter" href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a class="linkfooter" href="#"><i class="fa fa-youtube"></i></a></li>
+						<li><a class="linkfooter" href="https://www.facebook.com/mnbodyfashionpurmerend/" target="_blank"><img src="components/images/socials/facebook.png"></a></li>
+						<li><a class="linkfooter" href="https://twitter.com/MenNbodyfashion?lang=nl" target="_blank"><img src="components/images/socials/twitter.png"></a></li>
+						<li><a class="linkfooter" href="https://nl.pinterest.com/mnbodyfashion/" target="_blank"><img src="components/images/socials/pinterest.png"></a></li>
+						<li><a class="linkfooter" href="https://www.youtube.com/user/MenNbodyfashion" target="_blank"><img src="components/images/socials/youtube.png"></a></li>
 					</ul>
 					<div class="footer-copyright">
 						<p>Copyright © 2019. All Rights Reserved. <a href=" https://fresh-dev.nl/" target="_blank">FRESH-DEV</a></p>
