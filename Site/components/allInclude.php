@@ -1,7 +1,7 @@
-<?php include('./components/Navbar.php'); ?>
-<?php include('./components/header.php'); ?>
-
 <!DOCTYPE html>
+
+<?php include('Navbar.php') ?>
+
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="./components/css/nav.css">
