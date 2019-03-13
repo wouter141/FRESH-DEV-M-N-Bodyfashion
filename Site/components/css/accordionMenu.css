@@ -3,21 +3,19 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 10%;
-  align-items: center;
+  padding-top: 5%;
+  align-items: left;
 }
 
 .accordionHeren, .accordionDames{
-  width: 80%;
+  width: 10%;
   height: 100%;
-  overflow: hidden;
   text-align: center;
-  margin-top: 50px;
-  border: 1px solid black;
+  margin-top: 4%;
 }
 
 .MainUL {
-  width: 100%;
+  width: 800%;
   height: 100%;
   display: table;
   table-layout: fixed;
@@ -29,14 +27,13 @@
   display: table-cell;
   width: 34%;
   height: 100%;
-  color: white;
-  background-color: #A29060;
+  color: black;
 }
 
 .accordion-img{
   width: 100%;
+  min-height: 80px;
   height: 100%;
-  border-top: 1px solid black;
 }
 
 .Merken {
@@ -45,11 +42,11 @@
 
 .noText{
   text-align: center;
+  font-weight: bolder;
 }
 
 .Titles {
-  background-color: #333333;
-  color: white;
+  color: black;
 }
 
 .accordionHeren .MainUL .MainLI:hover{
@@ -66,15 +63,10 @@
 }
 
 .accordion-img:hover .noText{
-  display: none;
 }
 
 .accordion-img:hover .Merken{
   display: block;
-  text-align: left;
-}
-
-#nr2{
-border: 1px solid black;
-border-bottom: 0px;
+  text-align: center;
+  padding-left: 30px;
 }

@@ -10,7 +10,7 @@
     <div class="accordionFlex">
       <div class="accordionDames">
         <div class="Titles">
-          Damesmode
+          <h1>Damesmode</h1>
         </div>
         <ul class="MainUL">
           <li class="MainLI">
@@ -31,7 +31,7 @@
             </div>
           </li>
           <li class="MainLI">
-            <div class="accordion-img" id="nr2">
+            <div class="accordion-img">
               <div class="noText">
                 Badmode
               </div>
@@ -82,7 +82,7 @@
             </div>
           </li>
           <li class="MainLI">
-            <div class="accordion-img" id="nr2">
+            <div class="accordion-img">
               <div class="noText">
                 Accesoires
               </div>
@@ -118,7 +118,7 @@
       </div>
       <div class="accordionHeren">
         <div class="Titles">
-          Herenmode
+          <h1>Herenmode</h1>
         </div>
         <ul class="MainUL">
           <li class="MainLI">
