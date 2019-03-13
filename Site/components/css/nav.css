@@ -9,20 +9,25 @@ nav {
   right:0;
   width: 100%;
   z-index: 20;
+  transition: 0.8s all ease;
+
 }
 .List-Nav {
   list-style: none;
   padding: 1rem 2rem;
+
 }
 .list-Navigatie {
     display: inline-block;
     color: black;
     padding: 0 1rem;
     font-family: sans-serif;
-      color: white;
+    color: white;
+
 }
 
 .scrolled {
   min-height: 10px;
   background: black;
+
 }
