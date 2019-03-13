@@ -54,7 +54,24 @@
       Openingstijden
     </h1>
     <div class="Openingstijden">
-      a
+      <div class="Dag">
+        Maandag:    <br>
+        Dinsdag:    <br>
+        Woensdag:   <br>
+        Donderdag:  <br>
+        Vrijdag:    <br>
+        Zaterdag:   <br>
+        Zondag:
+      </div>
+      <div class="Tijd">
+        Gesloten          <br>
+        09.30 - 17.30 uur <br>
+        09.30 - 17.30 uur <br>
+        09.30 - 17.30 uur <br>
+        09.30 - 17.30 uur <br>
+        09.30 - 17.30 uur <br>
+        09.30 - 17.30 uur
+      </div>
     </div>
   </body>
   <?php include('./components/Footer.php'); ?>
