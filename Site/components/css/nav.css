@@ -1,7 +1,5 @@
-
-
 nav {
-  background: black;
+  background: #1C1D21;
   min-height: 10px;
   position: fixed;
   top:0;
@@ -28,6 +26,6 @@ nav {
 
 .scrolled {
   min-height: 10px;
-  background: black;
+  background: #1C1D21;
 
 }
