@@ -12,12 +12,39 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10%;
+  padding: 5%;
 }
 
 .Personen{
   width: 29%;
-  height: 600px;
-  border: 1px solid black;
+  height: 100%;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Foto{
+  border-radius: 50%;
+}
+
+.FotoDiv{
+}
+
+.Text {
+  width: 100%;
+  height: 10%;
+  border-radius: 20px;
+  bottom: 0;
+  text-align: center;
+}
+
+.Space-Between {
+  height: 16.1%;
+}
+
+.Openingstijden{
+  height: 600px;
+  width: 100%;
+  background-color: red;
 }
