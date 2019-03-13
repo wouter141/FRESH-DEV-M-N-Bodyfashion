@@ -48,7 +48,6 @@ nav {
   right:0;
   width: 100%;
   z-index: 20;
-  transition: 0.35s all ease;
 }
   ul {
   list-style: none;
