@@ -1,0 +1,10 @@
+footer{
+  position: relative;
+  background-color: #333333;
+  margin-top: 25%;
+}
+
+footer img{
+  position: relative;
+  left: 0;
+}
