@@ -1,72 +1,7 @@
-.accordionFlex{
-  position: relative;
-  display: flex;
-  flex-direction: column;
+.MerkenPage{
+  height: 800px;
   width: 100%;
-  padding-top: 5%;
-  align-items: left;
-}
-
-.accordionHeren, .accordionDames{
-  width: 10%;
-  height: 100%;
-  text-align: center;
-  margin-top: 4%;
-}
-
-.MainUL {
-  width: 800%;
-  height: 100%;
-  display: table;
-  table-layout: fixed;
-  margin: 0;
-  padding: 0;
-}
-
-.MainLI {
-  display: table-cell;
-  width: 34%;
-  height: 100%;
   color: black;
-}
-
-.accordion-img{
-  width: 100%;
-  min-height: 80px;
-  height: 100%;
-}
-
-.Merken {
-  display: none;
-}
-
-.noText{
-  text-align: center;
-  font-weight: bolder;
-}
-
-.Titles {
-  color: black;
-}
-
-.accordionHeren .MainUL .MainLI:hover{
-  position: relative;
-  width: 66%;
-  transition: width 2s, height 4s;
-}
-
-.accordionDames .MainUL .MainLI:hover{
-  position: relative;
-  transition: width 2s, height 4s;
-  width: 66%;
-  height: 100%;
-}
-
-.accordion-img:hover .noText{
-}
-
-.accordion-img:hover .Merken{
-  display: block;
-  text-align: center;
-  padding-left: 30px;
+  margin-top: 100px;
+  word-wrap: break-word;
 }
