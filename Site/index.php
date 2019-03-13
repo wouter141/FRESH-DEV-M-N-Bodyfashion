@@ -7,6 +7,7 @@
     <?php $metaTags = 'tag1 tag2'; ?>
     <?php $currentPage = 'index'; ?>
     <?php include('./components/AllInclude.php'); ?>
+    <link rel="stylesheet" href="components/css/index.css"></link>
     <script src="components/javascript/index.js"></script>
   </head>
   <body>
