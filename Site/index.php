@@ -14,10 +14,14 @@
       <div class="banner"></div>
       <div class="body-text">
         <div class="wrapper">
-          <h1 class="Main-Title">M&N Bodyfashion</h1>
-          <p class="Main-Paragraaf">Huts</p>
+          <h1 class="Main-Title">Welkom bij M&N Bodyfashion</h1>
+          <h2 class="Main-Paragraaf">
+            Luxe lingerie, modieuze badmode, comfortabele homewear en stoer herenondergoed.
+            Dat is M&N Bodyfashion: <br><br>
 
-          <p class="Main-Paragraaf">Huts</p>
+            Hét adres waar we geloven in een eerlijk, deskundig en persoonlijk advies.
+
+            De winkel heeft een enorm assortiment dameslingerie van de bekende merken, badmode en homewear.</p>
           </div>
         </div>
     <?php include('./components/Footer.php'); ?>

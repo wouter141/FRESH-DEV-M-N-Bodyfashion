@@ -1,5 +1,5 @@
 .linkfooter {
-    color: #6195F F;
+    color: #6195F;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -12,9 +12,10 @@
 }
 #footer {
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #1C1D21
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1C1D21;
+    margin-top: 3%;
 }
 
 .footer-logo {
@@ -24,6 +25,10 @@
 
 .footer-logo img{
   height: 150px;
+}
+
+.linkfooter>i>img {
+
 }
 
 .footer-follow {
@@ -52,5 +57,5 @@
     font-size: 14px;
     text-transform: uppercase;
     margin: 0;
-  color:#868F9B;
+    color:#868F9B;
 }

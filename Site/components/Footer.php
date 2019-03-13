@@ -14,7 +14,7 @@
 						<li><a class="linkfooter" href="#"><i class="fa fa-youtube"></i></a></li>
 					</ul>
 					<div class="footer-copyright">
-						<p>Copyright ©2019. All Rights Reserved. <a href=" https://fresh-dev.nl/" target="_blank">FRESH-DEV</a></p>
+						<p>Copyright © 2019. All Rights Reserved. <a href=" https://fresh-dev.nl/" target="_blank">FRESH-DEV</a></p>
 					</div>
 				</div>
 			</div>
