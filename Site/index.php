@@ -10,9 +10,6 @@
     <script src="components/javascript/index.js"></script>
   </head>
   <body>
-      <div class="textbanner">
-        <h1>TEST</h1>
-      </div>
       <div class="banner"></div>
       <div class="body-text">
         <div class="wrapper">

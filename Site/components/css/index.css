@@ -4,12 +4,12 @@
 }
 
 .wrapper {
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .banner {
-  background-image: url('../../components/images/slider/image.png') ;
+  background: url('../../components/images/slider/image.png');
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -25,8 +25,6 @@
 
   h1 {
     font-family: sans-serif;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
     padding-top: 2rem;
   }
 
@@ -38,17 +36,41 @@
     line-height: 2rem;
   }
 
-  .textbanner{
-    position: absolute;
-    color: white;
-    z-index: 19;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
+nav {
+  background: none;
+  min-height: 85px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  width: 100%;
+  z-index: 20;
+}
+  ul {
+  list-style: none;
+  padding: 2rem;
+}
+  li {
+    display: inline-block;
+    color: black;
+    padding: 0 1rem;
+    font-family: sans-serif;
+}
+    a {
+      color: red;
+      text-decoration: none;
+    }
 
 .scrolled {
   min-height: 10px;
   background: black;
-  transition: 0.35s all ease;
+}
+  ul {
+    padding: 1rem 2rem;
+  }
+
+  li {
+    color: red;
+  }
 }

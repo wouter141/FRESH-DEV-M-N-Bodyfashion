@@ -1,18 +1,10 @@
-<?php
-    // Define each name associated with an URL
-    $urls = array(
-        '<img src="./components/images/Logo.png" class="Logo-Nav">' => '/FRESH-DEV-M-N-Bodyfashion/Site/',
-        'Over Ons' => '/FRESH-DEV-M-N-Bodyfashion/Site/OverOns.php',
-        'Merken' => '/FRESH-DEV-M-N-Bodyfashion/Site/Merken.php',
-        'Spaarsysteem' => '/FRESH-DEV-M-N-Bodyfashion/Site/Spaarsysteem.php',
-        'Acties' => '/FRESH-DEV-M-N-Bodyfashion/Site/Acties.php',
-        'Contact' => '/FRESH-DEV-M-N-Bodyfashion/Site/Contact.php',
-        // …
-    );
-    echo "<nav>";
-    foreach ($urls as $name => $url) {
-        print '<div'.(($currentPage === $name) ? ' class="active" ': '').
-            '><a class="navButton" href="'.$url.'">'.$name.'</a></div>';
-    }
-    echo "</nav>";
-?>
+<nav>
+    <ul>
+      <a href="./index.php"><li>Home</li></a>
+      <a href="./OverOns.php"><li>Over Ons</li></a>
+      <a href="./Merken.php"><li>Merken</li></a>
+      <a href="./Spaarsysteem.php"><li>Spaarsysteem</li></a>
+      <a href="./Acties.php"><li>Acties</li></a>
+      <a href="./Contact.php"><li>Contact</li></a>
+    </ul>
+  </nav>
