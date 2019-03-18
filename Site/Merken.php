@@ -7,9 +7,12 @@
     <?php include('./components/AllInclude.php'); ?>
   </head>
   <body>
+    <?php include('./components/Navbar.php') ?>
+    <div class="page-Content">
     <div class="MerkenPage">
       ABC
     </div>
+  </div>
   </body>
   <?php include('./components/Footer.php'); ?>
 </html>

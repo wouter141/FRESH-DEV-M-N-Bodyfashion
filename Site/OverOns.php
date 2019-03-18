@@ -7,39 +7,43 @@
     <title></title>
   </head>
   <body>
-    <h1 class="OverOns-Uitleg">
-      Over Ons
-    </h1>
-    <div class="AllePersonen">
-      <div class="Persoon2 Personen">
-        <div class="FotoDiv">
-          <img class="Foto" src="./components/images/persoon2.jpg" alt="">
+    <?php include('./components/Navbar.php') ?>
+    <div class="page-Content">
+      <h1 class="OverOns-Uitleg">
+        Over Ons
+      </h1>
+      <div class="AllePersonen">
+        <div class="Persoon2 Personen">
+          <div class="FotoDiv">
+            <div class="Foto" style="background-image: url('./components/images/persoon2.jpg');"></div>
+          </div>
+          <div class="Space-Between"></div>
+          <div class="Text">
+            <h1>Soraya</h1>
+            Verkoopster
+          </div>
         </div>
-        <div class="Space-Between"></div>
-        <div class="Text">
-          <h1>Soraya</h1>
-          Verkoopster
+        <div class="Persoon1 Personen">
+          <div class="FotoDiv">
+            <div class="Foto" style="background-image: url('./components/images/persoon1.jpg');"></div>
+          </div>
+          <div class="Text">
+            <h1>Marianne</h1>
+            Eigenaresse
+          </div>
+        </div>
+        <div class="Persoon3 Personen">
+          <div class="FotoDiv">
+            <div class="Foto" style="background-image: url('./components/images/persoon3.jpg');"></div>
+          </div>
+          <div class="Space-Between"></div>
+          <div class="Text">
+            <h1>Denise</h1>
+            Verkoopster
+          </div>
         </div>
       </div>
-      <div class="Persoon1 Personen">
-        <div class="FotoDiv">
-          <img class="Foto" src="./components/images/persoon1.jpg" alt="">
-        </div>
-        <div class="Text">
-          <h1>Marianne</h1>
-          Eigenaresse
-        </div>
-      </div>
-      <div class="Persoon3 Personen">
-        <div class="FotoDiv">
-          <img class="Foto" src="./components/images/persoon3.jpg" alt="">
-        </div>
-        <div class="Space-Between"></div>
-        <div class="Text">
-          <h1>Denise</h1>
-          Verkoopster
-        </div>
-      </div>
+
     </div>
     <h1 class="OverOns-Uitleg">
       Waar kun je ons vinden?
@@ -71,6 +75,6 @@
         09.30 - 17.30 uur
       </div>
     </div>
+    <?php include('./components/Footer.php'); ?>
   </body>
-  <?php include('./components/Footer.php'); ?>
 </html>

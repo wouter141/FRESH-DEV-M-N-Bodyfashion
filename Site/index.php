@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="components/css/index-Navigatie.css">
   </head>
   <body>
-      <div class="banner"></div>
+    <div class="banner"></div>
+    <div class="page-Content">
+    <?php include('./components/Navbar.php') ?>
       <div class="body-text">
         <div class="wrapper">
           <h1 class="Main-Title">Welkom bij M&N Bodyfashion</h1>
@@ -22,6 +24,7 @@
             De winkel heeft een enorm assortiment dameslingerie van de bekende merken, badmode en homewear.</p>
           </div>
         </div>
+      </div>
     <?php include('./components/Footer.php'); ?>
   </body>
 </html>

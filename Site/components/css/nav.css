@@ -1,6 +1,7 @@
 nav {
   background: #1C1D21;
   min-height: 10px;
+  height: 51px;
   position: fixed;
   top:0;
   left:0;

@@ -1,46 +1,6 @@
-.MainText {
-  position: relative;
-  margin-left: 2.5%;
-  top: 130px;
-  width: 80%;
-  background-color: red;
-}
-.subtitle {
-  margin-top: -20px;
-}
-
-.merkenAll{
-  height: 200px;
-  position: relative;
-  background-color: yellow;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-}
-/* HerenMerk */
-.merkHeren{
-  position: relative;
-  width: 40%;
-  height: 100px;
-  background-color: blue;
-  display: flex;
-  align-content: center;
-}
-
-.merkHerenTitle {
-  background-color: orange;
-}
-
-.merkHerenContent{
-  background-color: purple;
-}
-
-/* MerkVrouwen */
-.merkVrouwen{
-  position: relative;
-  width: 40%;
-  height: 100px;
-  background-color: green;
-  display: flex;
-  align-content: space-around;
+.MerkenPage{
+  height: 800px;
+  width: 100%;
+  color: black;
+  word-wrap: break-word;
 }
