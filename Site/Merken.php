@@ -18,15 +18,14 @@
           <hr>
       <div class="container">
     <div class="selected-item">
-      <p>Je Hebt Geselecteerd: <span>Leeg</span></p>
+      <p>Je Hebt Geselecteerd: <span id="spanHeading">Leeg</span></p>
     </div>
 
     <div class="dropdown">
       <span class="selLabel">Selecteer Kledingtype</span>
-      <input type="hidden" name="cd-dropdown">
       <ul class="dropdown-list">
-        <li data-value="1">
-          <span>Lingerie</span>
+        <li data-value="1" onclick="myFunction()">
+          <span id="Lingerie">Lingerie</span>
         </li>
         <li data-value="2">
           <span>Badmode</span>
@@ -41,6 +40,23 @@
           <span>Shapewear</span>
         </li>
       </ul>
+    </div>
+    <div class="dropdown-content">
+      <div id="content-Lingerie">
+        aaa
+      </div>
+      <div class="kleding content-Badmode">
+
+      </div>
+      <div class="kleding content-Accessoires">
+
+      </div>
+      <div class="kleding content-Nachtmode">
+
+      </div>
+      <div class="kleding content-Shapewear">
+
+      </div>
     </div>
     </div>
   </div>

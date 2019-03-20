@@ -1,3 +1,5 @@
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 <?php
 require 'PHPMailer/src/Exception.php';
 
@@ -12,12 +14,6 @@ require 'PHPMailer/src/SMTP.php';
 use PHPMailer\PHPMailer\PHPMailer;
 
 use PHPMailer\PHPMailer\Exception;
-
-
-
-// Load Composer's autoloader
-
-require 'vendor/autoload.php';
 
 
 // Instantiation and passing `true` enables exceptions
@@ -38,9 +34,9 @@ try {
 
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 
-    $mail->Username   = 'user@example.com';                     // SMTP username
+    $mail->Username   = '12321.post@gmail.com';                     // SMTP username
 
-    $mail->Password   = 'secret';                               // SMTP password
+    $mail->Password   = 'Stemittheking12';                               // SMTP password
 
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
 
@@ -64,14 +60,6 @@ try {
 
 
 
-    // Attachments
-
-    $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-
-    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-
-
-
     // Content
 
     $mail->isHTML(true);                                  // Set email format to HTML
@@ -84,12 +72,18 @@ try {
 
 
 
-    $mail->send();
-
-    echo 'Message has been sent';
+    $mail->send();?>
+		<script type="text/javascript">
+		swal("Uw mail is gestruurd");
+		</script>
+<?php
 
 } catch (Exception $e) {
-
+	?>
+	<script type="text/javascript">
+	swal("Er is een error in het systeem. Probeer het later nog eens.");
+	</script>
+	<?php
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 
 }

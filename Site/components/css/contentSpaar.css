@@ -7,14 +7,14 @@
 .foto-Spaar {
   background-size: cover;
   background-position: center center;
-  width: 30%;
+  width: 50%;
   height: 600px;
   border: 1px solid black;
   padding-top: 30px;
 }
 
 .text-Spaar{
-  width: 70%;
+  width: 50%;
   height: 100%;
   padding-top: 30px;
   display: flex;
@@ -23,5 +23,5 @@
 }
 
 .text-Spaar-2, .text-Spaar-3, .text-Spaar-4{
-  padding-top: 10px;
+  padding-top: 30px;
 }

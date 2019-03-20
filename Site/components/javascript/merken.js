@@ -11,3 +11,10 @@ $(document).ready(function() {
   });
 
 });
+
+function myFunction() {
+  var spanHeading = document.getElementById('spanHeading').innerHTML;
+  if (spanHeading == 'Lingerie') {
+    document.getElementById('content-Lingerie').style.display = "none";
+  }
+}

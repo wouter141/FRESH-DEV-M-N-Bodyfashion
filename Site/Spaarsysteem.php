@@ -6,7 +6,7 @@
     <?php $metaTags = 'tag1 tag2'; ?>
     <?php $currentPage = 'index'; ?>
     <?php include('./components/AllInclude.php'); ?>
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
   </head>
   <body>
   <div class="page-Content">
@@ -18,7 +18,7 @@
         <div class="text-Spaar-3">Als lid van ons klantenspaarsysteem kunt u ook uw e-mail adres opgeven waarmee u exclusief per e-mail als eerste onze aanbiedingen, acties, start uitverkoop en uitnodigingen voor evenementen ontvangt.</div>
         <div class="text-Spaar-4">Wilt u ook op de hoogte worden gehouden van onze aanbiedingen, acties, start uitverkoop en uitnodigingen voor evenementen, vult u dan het contactformulier in bij de Contact pagina.</div>
       </div>
-      <div class="foto-Spaar" style="background-image: url('./components/images/fotoSparen.jpg');"></div>
+      <div class="foto-Spaar" style="background-image: url('./components/images/index2.jpg');"></div>
     </div>
   </div>
   <?php include('./components/Footer.php'); ?>
