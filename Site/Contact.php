@@ -43,7 +43,7 @@ require 'PHPMailer/src/SMTP.php';
 <?php
 
 	if (isset($_POST['submit'])) {
-    
+
 $reaMail = $_POST['e_mail'];
 $voornaam = $_POST['voornaam'];
 $achternaam = $_POST['achternaam'];
@@ -51,7 +51,7 @@ $opmerking = $_POST['opmerking'];
 
 $mail = new PHPMailer;
 
-                $mail->SMTPDebug = 2; // Enable verbose debug output
+//                $mail->SMTPDebug = 2; // Enable verbose debug output
 
                 $mail->isSMTP(); // Set mailer to use SMTP
                 $mail->Host = '37.128.144.185'; // Specify main and backup SMTP servers
