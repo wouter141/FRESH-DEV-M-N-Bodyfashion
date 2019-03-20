@@ -52,10 +52,6 @@ try {
 
     $mail->addReplyTo('12321.post@gmail.com', 'Information');
 
-    $mail->addCC('cc@example.com');
-
-    $mail->addBCC('bcc@example.com');
-
 
 
     // Content
