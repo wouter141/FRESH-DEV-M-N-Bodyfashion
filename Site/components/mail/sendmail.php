@@ -1,35 +1,97 @@
 <?php
-	$voornaam = $_POST['voornaam'];
-	$achternaam = $_POST['achternaam'];
-  $Mail = $_POST['e_mail'];
-  $opmerking = $_POST['opmerking'];
+require 'PHPMailer/src/Exception.php';
 
-	$body = "Hallo Ivar,\r\n\r\n
-  Je hebt een e-mailtje van je Portfolio gekregen.\r\n
-  Dit mailtje is van: ";
-	$body .= $voornaam;
-	$body .= $achternaam;
-	$body .= ".\r\n
-  Het e-mailadres van degene die je gemaild heeft is: ";
-	$body .= $Mail;
-  $body .= "Deze mailer heeft een vraag, namelijk:";
-  $body .= $opmerking;
-	$ontvanger = "ivar@waaromleefje.nl";
-	$onderwerp = "M-N-BodyFashion-Website";
-	$email_from = "M-N-BodyFashion-Website@site.nl";
+require 'PHPMailer/src/PHPMailer.php';
 
-	//headers
-	$headers = 'From: '.$email_from."\r\n".
-	'Reply-To: '.$Mail."\r\n" .
-	'X-Mailer: PHP/' . phpversion();
-	mail($ontvanger, $onderwerp, $body, $headers);
-  ?>
-  <html>
-    <head>
-			<title>Succes</title>
-    </head>
-    <body>
-      De mail is met succes vertstuurd.<br>
-      Klik <a href='../../contact.php'>hier</a> om terug te gaan.<br>
-    </body>
-  </html>
+require 'PHPMailer/src/SMTP.php';
+
+// Import PHPMailer classes into the global namespace
+
+// These must be at the top of your script, not inside a function
+
+use PHPMailer\PHPMailer\PHPMailer;
+
+use PHPMailer\PHPMailer\Exception;
+
+
+
+// Load Composer's autoloader
+
+require 'vendor/autoload.php';
+
+
+// Instantiation and passing `true` enables exceptions
+
+$mail = new PHPMailer(true);
+
+
+
+try {
+
+    //Server settings
+
+    $mail->SMTPDebug = 2;                                       // Enable verbose debug output
+
+    $mail->isSMTP();                                            // Set mailer to use SMTP
+
+    $mail->Host       = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+
+    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+
+    $mail->Username   = 'user@example.com';                     // SMTP username
+
+    $mail->Password   = 'secret';                               // SMTP password
+
+    $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
+
+    $mail->Port       = 587;                                    // TCP port to connect to
+
+
+
+    //Recipients
+
+    $mail->setFrom('from@example.com', 'Mailer');
+
+    $mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
+
+    $mail->addAddress('ellen@example.com');               // Name is optional
+
+    $mail->addReplyTo('info@example.com', 'Information');
+
+    $mail->addCC('cc@example.com');
+
+    $mail->addBCC('bcc@example.com');
+
+
+
+    // Attachments
+
+    $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+
+    $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+
+
+
+    // Content
+
+    $mail->isHTML(true);                                  // Set email format to HTML
+
+    $mail->Subject = 'Here is the subject';
+
+    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+
+
+    $mail->send();
+
+    echo 'Message has been sent';
+
+} catch (Exception $e) {
+
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+
+}
+
+?>
