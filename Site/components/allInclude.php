@@ -1,4 +1,3 @@
-    <link rel="stylesheet" href="./components/css/pages.css">
     <link rel="stylesheet" href="./components/css/nav.css">
     <link rel="stylesheet" href="./components/css/FooterCSS.css">
     <link rel="stylesheet" href="./components/css/contentMerken.css">
