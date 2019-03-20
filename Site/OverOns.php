@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Over Ons</title>
-    <?php include('./components/AllInclude.php'); ?>
+    <?php include('./components/header.php'); ?>
     <meta charset="utf-8">
     <title></title>
   </head>

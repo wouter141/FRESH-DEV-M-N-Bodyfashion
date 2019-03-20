@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="./components/css/contentContact.css">
     <meta charset="utf-8">
-    <?php include('./components/AllInclude.php'); ?>
+    <?php include('./components/header.php'); ?>
     <title></title>
   </head>
   <body>

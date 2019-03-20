@@ -17,6 +17,14 @@
           De volgende merken kunt u bij M&N Bodyfashion vinden: </h2>
           <hr>
     </div>
+    <div class="dropdown">
+      <button class="dropbtn">Heren</button>
+      <div class="dropdown-content">
+        <a href="#">Ondermode</a>
+        <a href="#">Nachtmode</a>
+        <a href="#">Badmode</a>
+      </div>
+    </div>
   </div>
   </body>
   <?php include('./components/Footer.php'); ?>

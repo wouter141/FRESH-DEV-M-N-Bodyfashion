@@ -5,7 +5,7 @@
     <?php $title = 'Spaarsysteem'; ?>
     <?php $metaTags = 'tag1 tag2'; ?>
     <?php $currentPage = 'index'; ?>
-    <?php include('./components/AllInclude.php'); ?>
+    <?php include('./components/header.php'); ?>
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
   </head>
   <body>

@@ -4,7 +4,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta charset="utf-8">
     <title>M&N Bodyfashion</title>
-    <?php include('./components/AllInclude.html'); ?>
+    <?php include('./components/header.php'); ?>
     <script src="components/javascript/index.js"></script>
     <link rel="stylesheet" href="components/css/index-Navigatie.css">
   </head>
