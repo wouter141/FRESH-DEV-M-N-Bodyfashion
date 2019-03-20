@@ -16,14 +16,27 @@
       <h2 class="Main-Paragraaf">Of u nu op zoek bent naar Lingerie, badmode of nachtmode, M&N Bodyfashion heeft het allemaal voor zowel dames als heren!
           De volgende merken kunt u bij M&N Bodyfashion vinden: </h2>
           <hr>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">Heren</button>
-      <div class="dropdown-content">
-        <a href="#">Ondermode</a>
-        <a href="#">Nachtmode</a>
-        <a href="#">Badmode</a>
-      </div>
+          <div class="dropdown">
+            <button class="dropbtn">Heren</button>
+            <div class="dropdown-content">
+              <a href="">Ondermode</a>
+              <a href="">Nachtmode</a>
+              <a href="">Badmode</a>
+            </div>
+          </div>
+          <div class="dropdowndames">
+            <button class="dropbtndames">Dames</button>
+            <div class="dropdown-contentdames">
+              <a href="">Lingerie</a>
+              <a href="">Badmode</a>
+              <a href="">Nachtmode</a>
+              <a href="">Accessoires</a>
+              <a href="">Shapewear</a>
+            </div>
+          </div>
+          <div class="dropdowncontent-heren-ondermode">
+            huts a niffauw
+          </div>
     </div>
   </div>
   </body>
