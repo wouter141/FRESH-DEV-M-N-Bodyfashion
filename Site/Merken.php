@@ -16,29 +16,32 @@
       <h2 class="Main-Paragraaf">Of u nu op zoek bent naar Lingerie, badmode of nachtmode, M&N Bodyfashion heeft het allemaal voor zowel dames als heren!
           De volgende merken kunt u bij M&N Bodyfashion vinden: </h2>
           <hr>
-      </div>
       <div class="container">
     <div class="selected-item">
-      <p>You Selected Country : <span>Empty</span></p>
+      <p>Je Hebt Geselecteerd: <span>Leeg</span></p>
     </div>
 
     <div class="dropdown">
-      <span class="selLabel">Select Country</span>
+      <span class="selLabel">Selecteer Kledingtype</span>
       <input type="hidden" name="cd-dropdown">
       <ul class="dropdown-list">
         <li data-value="1">
-          <span>India</span>
+          <span>Lingerie</span>
         </li>
         <li data-value="2">
-          <span>Sri Lanka</span>
+          <span>Badmode</span>
         </li>
         <li data-value="3">
-          <span>Nepal</span>
+          <span>Nachtmode</span>
         </li>
         <li data-value="4">
-          <span>Bangladesh</span>
+          <span>Accessoires</span>
+        </li>
+        <li data-value="5">
+          <span>Shapewear</span>
         </li>
       </ul>
+    </div>
     </div>
   </div>
   </div>
