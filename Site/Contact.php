@@ -71,7 +71,7 @@ $mail = new PHPMailer;
 
     $mail->setFrom('website@fresh-dev.academy');
 
-    $mail->addAddress('12321.post@gmail.nl');     // Add a recipient
+    $mail->addAddress('wouter.wilmink@student.rocva.nl');     // Add a recipient
 
    // $mail->addReplyTo('12321.post@gmail.com');
 
