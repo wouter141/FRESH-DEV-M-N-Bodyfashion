@@ -20,6 +20,7 @@
           <input class="submit" type="submit" name="submit" value="Submit">
         </form>
       </div>
-    <div>
+    </div>
+    <?php include('./components/Footer.php'); ?>
   </body>
 </html>
