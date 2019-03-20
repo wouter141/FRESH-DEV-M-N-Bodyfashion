@@ -4,3 +4,16 @@
   color: black;
   word-wrap: break-word;
 }
+
+.Main-Title {
+    font-family: sans-serif;
+    padding-top: 2rem;
+  }
+
+.Main-Paragraaf {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #777;
+    padding: 2rem 0;
+    line-height: 2rem;
+  }

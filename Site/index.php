@@ -21,7 +21,7 @@
 
             Hét adres waar we geloven in een eerlijk, deskundig en persoonlijk advies.
 
-            De winkel heeft een enorm assortiment dameslingerie van de bekende merken, badmode en homewear.</p>
+            De winkel heeft een enorm assortiment dameslingerie van de bekende merken, badmode en homewear.</h2>
           </div>
         </div>
       </div>
