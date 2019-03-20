@@ -28,8 +28,8 @@ require 'PHPMailer/src/SMTP.php';
           <input type="text" name="achternaam" class="achternaam" placeholder="achternaam" value="">
           <input type="email" name="e_mail" placeholder="Wat is uw e-mail?" value="">
           <textarea class="opmerking" type="text" name="opmerking" placeholder="Wat is uw vraag / opmerking?" value=""></textarea>
-          <input class="reset" type="reset" name="reset" value="Reset">
           <input class="submit" type="submit" name="submit" value="submit">
+          <input class="reset" type="reset" name="reset" value="Reset">
         </form>
       </div>
     </div>
@@ -43,8 +43,11 @@ require 'PHPMailer/src/SMTP.php';
 <?php
 
 	if (isset($_POST['submit'])) {
-
-// Instantiation and passing `true` enables exceptions
+    
+$reaMail = $_POST['e_mail'];
+$voornaam = $_POST['voornaam'];
+$achternaam = $_POST['achternaam'];
+$opmerking = $_POST['opmerking'];
 
 $mail = new PHPMailer;
 
@@ -81,9 +84,10 @@ $mail = new PHPMailer;
 
     $mail->isHTML(true);                                  // Set email format to HTML
 
-    $mail->Subject = 'Here is the subject';
+    $mail->Subject = 'M-N-Bodyfashion Contact';
 
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->Body    = "Op deze mail kun je reageren: ".$reaMail."<br> Dit is de volledige naam: ".$voornaam." ".$achternaam.
+                      "<br>".$voornaam." heeft de volgende vraag of opmerking: ".$opmerking;
 
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
