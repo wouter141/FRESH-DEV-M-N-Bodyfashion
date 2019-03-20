@@ -30,29 +30,27 @@ try {
 
     $mail->isSMTP();                                            // Set mailer to use SMTP
 
-    $mail->Host       = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+    $mail->Host       = '37.128.144.185';  // Specify main and backup SMTP servers
 
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 
-    $mail->Username   = '12321.post@gmail.com';                     // SMTP username
+    $mail->Username   = 'website@fresh-dev.study';              // SMTP username
 
-    $mail->Password   = 'Stemittheking12';                               // SMTP password
+    $mail->Password   = '8jz7iE5?';                               // SMTP password
 
-    $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
+//    $mail->SMTPSecure = 'TLS';                                  // Enable TLS encryption, `ssl` also accepted
 
-    $mail->Port       = 587;                                    // TCP port to connect to
+//    $mail->Port       = 587;                                    // TCP port to connect to
 
 
 
     //Recipients
 
-    $mail->setFrom('from@example.com', 'Mailer');
+    $mail->setFrom('website@fresh-dev.study', 'Mailer');
 
-    $mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
+    $mail->addAddress('12321.post@gmail.com', 'Joe User');     // Add a recipient
 
-    $mail->addAddress('ellen@example.com');               // Name is optional
-
-    $mail->addReplyTo('info@example.com', 'Information');
+    $mail->addReplyTo('12321.post@gmail.com', 'Information');
 
     $mail->addCC('cc@example.com');
 
