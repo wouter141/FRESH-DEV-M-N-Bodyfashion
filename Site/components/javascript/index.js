@@ -1,5 +1,5 @@
 $(function(){
-  if (screen.width >= 767) {
+  if (screen.width >= 768) {
     $(window).scroll(function() {
        if($(window).scrollTop() >= 100) {
          $('nav').addClass('scrolled');
@@ -10,6 +10,6 @@ $(function(){
     });
   }
   else {
-    alert("Kleiner dan 767px");
+    $('nav').removeClass('scrolled');
   }
 });
