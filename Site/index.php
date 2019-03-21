@@ -6,7 +6,6 @@
     <title>M&N Bodyfashion</title>
     <?php include('./components/header.php'); ?>
     <script src="components/javascript/index.js"></script>
-    <link rel="stylesheet" href="components/css/index-Navigatie.css">
   </head>
   <body>
     <div class="banner"></div>

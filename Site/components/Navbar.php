@@ -1,4 +1,6 @@
 <nav>
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle">
     <ul class="List-Nav">
       <a href="./index.php" class="Ancher-Tag"><li class="list-Navigatie">Home</li></a>
       <a href="./OverOns.php" class="Ancher-Tag"><li class="list-Navigatie">Over Ons</li></a>

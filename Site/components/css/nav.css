@@ -1,5 +1,5 @@
 nav {
-  background: #1C1D21;
+  background: none;
   min-height: 10px;
   height: 51px;
   position: fixed;
@@ -9,24 +9,144 @@ nav {
   width: 100%;
   z-index: 20;
   transition: 0.8s all ease;
-
 }
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+}
+
+#toggle{
+  display: none;
+}
+
 .List-Nav {
   list-style: none;
   padding: 1rem 2rem;
-
 }
+
 .list-Navigatie {
     display: inline-block;
     color: black;
     padding: 0 1rem;
     font-family: sans-serif;
     color: white;
+}
+.scrolled {
+  background: #1C1D21;
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
 
 }
 
-.scrolled {
-  min-height: 10px;
-  background: #1C1D21;
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  label {
+    display: block;
+  }
+
+  .List-Nav{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .List-Nav a {
+    display: block;
+    margin: 0;
+  }
+
+  #toggle:checked + .List-Nav{
+    display: block;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  label {
+    display: block;
+  }
+
+  .List-Nav{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .List-Nav a {
+    display: block;
+    margin: 0;
+  }
+
+  #toggle:checked + .List-Nav{
+    display: block;
+  }
+}
+
+@media (max-width: 319px) {
+  label {
+    display: block;
+  }
+
+  .List-Nav{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .List-Nav a {
+    display: block;
+    margin: 0;
+  }
+
+  #toggle:checked + .List-Nav{
+    display: block;
+  }
 }
