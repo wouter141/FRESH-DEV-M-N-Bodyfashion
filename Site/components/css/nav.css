@@ -33,10 +33,14 @@ label {
     color: black;
     padding: 0 1rem;
     font-family: sans-serif;
-    color: white;
+    color: black;
 }
 .scrolled {
   background: #1C1D21;
+}
+
+.scrolled .list-Navigatie{
+  color: white;
 }
 
 
