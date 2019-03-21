@@ -10,7 +10,6 @@ $(function(){
     });
   }
   else {
-    alert("Kleiner dan 767px");
     $('nav').removeClass('scrolled');
   }
 });
