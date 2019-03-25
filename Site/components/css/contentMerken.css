@@ -48,9 +48,12 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  cursor: pointer;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -91,6 +94,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  cursor: pointer;
 }
 
 .dropdown-contentdames a:hover {background-color: #f1f1f1}
@@ -103,12 +107,82 @@
   background-color: #3e8e41;
 }
 
-.dropdowncontent-heren-ondermode{
+#dropdowncontent-heren-ondermode{
+  display: none;
   text-align: center;
   position: relative;
   width: 25%;
   height: 25%;
   margin-left: 35%;
   background-color: red;
+  }
+
+#dropdowncontent-heren-nachtmode  {
   display: none;
-}
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }
+
+#dropdowncontent-heren-badmode  {
+  display: none;
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }
+
+#dropdowncontent-dames-lingerie  {
+  display: none;
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }
+
+#dropdowncontent-dames-badmode  {
+  display: none;
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }
+
+#dropdowncontent-dames-nachtmode  {
+  display: none;
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }
+
+#dropdowncontent-dames-accessoires  {
+  display: none;
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }
+  
+#dropdowncontent-dames-shapewear  {
+  display: none;
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }

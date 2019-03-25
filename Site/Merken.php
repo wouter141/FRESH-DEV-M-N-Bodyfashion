@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Merken</title>
+    <script src="components/javascript/merken.js"></script>
     <?php include('./components/header.php'); ?>
   </head>
   <body>
@@ -18,23 +19,44 @@
           <div class="dropdown">
             <button class="dropbtn">Heren</button>
             <div class="dropdown-content">
-              <a href="">Ondermode</a>
-              <a href="">Nachtmode</a>
-              <a href="">Badmode</a>
+              <a onclick="divVisibility('dropdowncontent-heren-ondermode');">Ondermode</a>
+              <a onclick="divVisibility('dropdowncontent-heren-nachtmode');">Nachtmode</a>
+              <a onclick="divVisibility('dropdowncontent-heren-badmode');">Badmode</a>
             </div>
           </div>
           <div class="dropdowndames">
             <button class="dropbtndames">Dames</button>
             <div class="dropdown-contentdames">
-              <a href="">Lingerie</a>
-              <a href="">Badmode</a>
-              <a href="">Nachtmode</a>
-              <a href="">Accessoires</a>
-              <a href="">Shapewear</a>
+              <a onclick="divVisibility('dropdowncontent-dames-lingerie');">Lingerie</a>
+              <a onclick="divVisibility('dropdowncontent-dames-badmode');">Badmode</a>
+              <a onclick="divVisibility('dropdowncontent-dames-nachtmode');">Nachtmode</a>
+              <a onclick="divVisibility('dropdowncontent-dames-accessoires');">Accessoires</a>
+              <a onclick="divVisibility('dropdowncontent-dames-shapewear');">Shapewear</a>
             </div>
           </div>
-          <div class="dropdowncontent-heren-ondermode">
-            huts a niffauw
+          <div id="dropdowncontent-heren-ondermode">
+            Ondermode heren
+          </div>
+          <div id="dropdowncontent-heren-nachtmode">
+            Nachtmode heren
+          </div>
+          <div id="dropdowncontent-heren-badmode">
+            Badmode heren
+          </div>
+          <div id="dropdowncontent-dames-lingerie">
+            Lingerie dames
+          </div>
+          <div id="dropdowncontent-dames-badmode">
+            Badmode dames
+          </div>
+          <div id="dropdowncontent-dames-nachtmode">
+            Nachtmode dames
+          </div>
+          <div id="dropdowncontent-dames-accessoires">
+            Accessoires dames
+          </div>
+          <div id="dropdowncontent-dames-shapewear">
+            Shapewear dames
           </div>
     </div>
   </div>
