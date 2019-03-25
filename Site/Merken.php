@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Merken</title>
+    <script src="components/javascript/merken.js"></script>
     <?php include('./components/header.php'); ?>
   </head>
   <body>
@@ -18,7 +19,7 @@
           <div class="dropdown">
             <button class="dropbtn">Heren</button>
             <div class="dropdown-content">
-              <a href="">Ondermode</a>
+              <a onclick="showOndermodeHeren()">Ondermode</a>
               <a href="">Nachtmode</a>
               <a href="">Badmode</a>
             </div>
@@ -33,8 +34,11 @@
               <a href="">Shapewear</a>
             </div>
           </div>
-          <div class="dropdowncontent-heren-ondermode">
-            huts a niffauw
+          <div id="dropdowncontent-heren-ondermode">
+            Ondermode heren
+          </div>
+          <div id="dropdowncontent-heren-nachtmode">
+            Ondermode heren
           </div>
     </div>
   </div>

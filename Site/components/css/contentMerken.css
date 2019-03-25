@@ -103,12 +103,22 @@
   background-color: #3e8e41;
 }
 
-.dropdowncontent-heren-ondermode{
+#dropdowncontent-heren-ondermode{
+  display: none;
   text-align: center;
   position: relative;
   width: 25%;
   height: 25%;
   margin-left: 35%;
   background-color: red;
+  }
+
+#dropdowncontent-heren-nachtmode{
   display: none;
-}
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+  margin-left: 35%;
+  background-color: red;
+  }
