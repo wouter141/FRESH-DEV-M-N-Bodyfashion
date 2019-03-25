@@ -1,5 +1,5 @@
 nav {
-  background: none;
+  background: black;
   min-height: 10px;
   height: 51px;
   position: fixed;
@@ -7,7 +7,7 @@ nav {
   left:0;
   right:0;
   width: 100%;
-  z-index: 20;
+  z-index: 30;
   transition: 0.8s all ease;
 }
 
@@ -32,17 +32,17 @@ label {
 
 .list-Navigatie {
     display: inline-block;
-    color: black;
+    color: white;
     padding: 0 1rem;
     font-family: sans-serif;
-    color: black;
+    color: white;
 }
 .scrolled {
-  background: #1C1D21;
+  background: none;
 }
 
 .scrolled .list-Navigatie{
-  color: white;
+  color: black;
 }
 
 
@@ -161,7 +161,7 @@ label {
 
 @media (max-width: 319px) {
   nav {
-    background-color: black;
+    background: none;
     transition: 0s all ease;
   }
   label {
