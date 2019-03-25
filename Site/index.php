@@ -9,8 +9,8 @@
   </head>
   <body>
     <div class="banner"></div>
-    <div class="page-Content">
     <?php include('./components/Navbar.php') ?>
+    <div class="page-Content">
       <div class="body-text">
         <div class="wrapper">
           <h1 class="Main-Title">Welkom bij M&N Bodyfashion</h1>

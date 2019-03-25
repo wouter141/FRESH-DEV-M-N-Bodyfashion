@@ -52,6 +52,10 @@ label {
 */
 
 @media (min-width: 1281px) {
+  .scrolled {
+    color: white;
+    background: black;
+  }
 
 }
 
@@ -61,6 +65,10 @@ label {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .scrolled {
+    color: white;
+    background: black;
+  }
 
 }
 
@@ -70,6 +78,10 @@ label {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .scrolled {
+    color: white;
+    background: black;
+  }
 
 
 }
@@ -80,6 +92,10 @@ label {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .scrolled {
+    color: white;
+    background: black;
+  }
   nav {
     background-color: black;
     transition: 0s all ease;
@@ -99,6 +115,7 @@ label {
     width: 100%;
     display: none;
     background-color: black;
+    padding: 0;
   }
 
   .List-Nav a {
@@ -123,6 +140,10 @@ label {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .scrolled {
+    color: white;
+    background: black;
+  }
   nav {
     background-color: black;
     transition: 0s all ease;
@@ -138,6 +159,7 @@ label {
   }
 
   .List-Nav{
+    padding: 0;
     text-align: center;
     width: 100%;
     display: none;
@@ -160,12 +182,15 @@ label {
 }
 
 @media (max-width: 319px) {
+  .scrolled {
+    color: white;
+    background: black;
+  }
+
   nav {
-    background: none;
-    transition: 0s all ease;
+    background: black;
   }
   label {
-    margin: 0 40px 0 0;
     font-size: 26px;
     line-height: 150%;
     display: block;
@@ -175,6 +200,7 @@ label {
   }
 
   .List-Nav{
+    padding: 0;
     text-align: center;
     width: 100%;
     display: none;
