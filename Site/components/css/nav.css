@@ -1,5 +1,5 @@
 nav {
-  background: black;
+  background-color: #1C1D21;
   min-height: 10px;
   height: 51px;
   position: fixed;
@@ -85,11 +85,11 @@ label {
 @media (min-width: 481px) and (max-width: 767px) {
   .scrolled {
     color: white;
-    background: black;
+    background-color: #1C1D21;
   }
 
   nav {
-    background-color: black;
+    background-color: #1C1D21;
     transition: 0s all ease;
   }
   label {
@@ -106,7 +106,7 @@ label {
     text-align: center;
     width: 100%;
     display: none;
-    background-color: black;
+    background-color: #1C1D21;
     padding: 0;
   }
 
@@ -134,11 +134,11 @@ label {
 @media (min-width: 320px) and (max-width: 480px) {
   .scrolled {
     color: white;
-    background: black;
+    background-color: #1C1D21;
   }
 
   nav {
-    background-color: black;
+    background-color: #1C1D21;
     transition: 0s all ease;
   }
   label {
@@ -156,7 +156,7 @@ label {
     text-align: center;
     width: 100%;
     display: none;
-    background-color: black;
+    background-color: #1C1D21;
   }
 
   .List-Nav a {
@@ -177,11 +177,11 @@ label {
 @media (max-width: 319px) {
   .scrolled {
     color: white;
-    background: black;
+    background-color: #1C1D21;
   }
 
   nav {
-    background: black;
+    background-color: #1C1D21;
   }
   label {
     font-size: 26px;
@@ -197,7 +197,7 @@ label {
     text-align: center;
     width: 100%;
     display: none;
-    background-color: black;
+    background-color: #1C1D21;
   }
 
   .List-Nav a {
@@ -213,5 +213,7 @@ label {
 
   .list-Navigatie {
     color: white;
+    background-color: #1C1D21;
+
   }
 }

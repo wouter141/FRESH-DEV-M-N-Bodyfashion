@@ -1,5 +1,4 @@
 .linkfooter {
-    color: #6195F;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -10,6 +9,11 @@
     opacity: 0.8;
     color: #6195FF;
 }
+
+.Fresh-link{
+  color: red;
+}
+
 #footer {
     position: relative;
     padding-top: 20px;
