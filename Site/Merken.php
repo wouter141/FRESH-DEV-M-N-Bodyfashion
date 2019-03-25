@@ -19,26 +19,32 @@
           <div class="dropdown">
             <button class="dropbtn">Heren</button>
             <div class="dropdown-content">
-              <a onclick="showOndermodeHeren()">Ondermode</a>
-              <a href="">Nachtmode</a>
-              <a href="">Badmode</a>
+              <a onclick="divVisibility('dropdowncontent-heren-ondermode');">Ondermode</a>
+              <a onclick="divVisibility('dropdowncontent-heren-nachtmode');">Nachtmode</a>
+              <a onclick="divVisibility('dropdowncontent-heren-badmode');">Badmode</a>
             </div>
           </div>
           <div class="dropdowndames">
             <button class="dropbtndames">Dames</button>
             <div class="dropdown-contentdames">
-              <a href="">Lingerie</a>
-              <a href="">Badmode</a>
-              <a href="">Nachtmode</a>
-              <a href="">Accessoires</a>
-              <a href="">Shapewear</a>
+              <a onclick="divVisibility('dropdowncontent-dames-lingerie');">Lingerie</a>
+              <a onclick="divVisibility('dropdowncontent-dames-badmode');">Badmode</a>
+              <a >Nachtmode</a>
+              <a >Accessoires</a>
+              <a >Shapewear</a>
             </div>
           </div>
           <div id="dropdowncontent-heren-ondermode">
             Ondermode heren
           </div>
           <div id="dropdowncontent-heren-nachtmode">
-            Ondermode heren
+            Nachtmode heren
+          </div>
+          <div id="dropdowncontent-heren-badmode">
+            Badmode heren
+          </div>
+          <div id="dropdowncontent-dames-lingerie">
+            Lingerie dames
           </div>
     </div>
   </div>
