@@ -1,5 +1,5 @@
 var divs = ["dropdowncontent-heren-ondermode", "dropdowncontent-heren-nachtmode", "dropdowncontent-heren-badmode", "dropdowncontent-dames-lingerie",
-"dropdowncontent-dames-badmode"];
+"dropdowncontent-dames-badmode", "dropdowncontent-dames-nachtmode", "dropdowncontent-dames-accessoires", "dropdowncontent-dames-shapewear"];
    var visibleDivId = null;
    function divVisibility(divId) {
      if(visibleDivId === divId) {

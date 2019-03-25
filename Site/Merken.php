@@ -29,9 +29,9 @@
             <div class="dropdown-contentdames">
               <a onclick="divVisibility('dropdowncontent-dames-lingerie');">Lingerie</a>
               <a onclick="divVisibility('dropdowncontent-dames-badmode');">Badmode</a>
-              <a >Nachtmode</a>
-              <a >Accessoires</a>
-              <a >Shapewear</a>
+              <a onclick="divVisibility('dropdowncontent-dames-nachtmode');">Nachtmode</a>
+              <a onclick="divVisibility('dropdowncontent-dames-accessoires');">Accessoires</a>
+              <a onclick="divVisibility('dropdowncontent-dames-shapewear');">Shapewear</a>
             </div>
           </div>
           <div id="dropdowncontent-heren-ondermode">
@@ -45,6 +45,18 @@
           </div>
           <div id="dropdowncontent-dames-lingerie">
             Lingerie dames
+          </div>
+          <div id="dropdowncontent-dames-badmode">
+            Badmode dames
+          </div>
+          <div id="dropdowncontent-dames-nachtmode">
+            Nachtmode dames
+          </div>
+          <div id="dropdowncontent-dames-accessoires">
+            Accessoires dames
+          </div>
+          <div id="dropdowncontent-dames-shapewear">
+            Shapewear dames
           </div>
     </div>
   </div>
