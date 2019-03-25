@@ -4,15 +4,18 @@
   flex-direction: column;
   width: 100%;
   padding-top: 70px;
-  padding-bottom: 5px;
   align-items: center;
 }
 
 .AllePersonen {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 5%;
+  padding-bottom: 0px;
+}
+
+.WaarKunJeOnsVinden-div > .OverOns-Uitleg{
+  padding-top: 30px;
 }
 
 .Personen{
@@ -33,15 +36,10 @@
 }
 
 .Text {
-  width: 100%;
   height: 10%;
   border-radius: 20px;
   bottom: 0;
   text-align: center;
-}
-
-.Space-Between {
-  height: 16.1%;
 }
 
 .Openingstijden{
@@ -68,10 +66,13 @@
 }
 
 @media (min-width: 1281px) {
-
+  .Foto{
+    width: 300px;
+    height: 300px;
   }
-
 }
+
+
 
 /*
   ##Device = Laptops, Desktops
@@ -79,7 +80,10 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
+  .Foto{
+    width: 250px;
+    height: 250px;
+  }
 }
 
 /*
@@ -97,7 +101,17 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .AllePersonen{
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .Personen{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 100px;
+      padding-left: 35%;
+  }
 }
 
 /*
@@ -107,9 +121,29 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .AllePersonen{
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .Personen{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 100px;
+      padding-left: 35%;
+  }
 }
 
 @media (max-width: 319px) {
+  .AllePersonen{
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .Personen{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 100px;
+      padding-left: 35%;
+  }
 }
