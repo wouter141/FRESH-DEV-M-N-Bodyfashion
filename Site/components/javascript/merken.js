@@ -16,6 +16,10 @@ var divs = ["dropdowncontent-heren-ondermode", "dropdowncontent-heren-nachtmode"
        div = document.getElementById(divId);
        if(visibleDivId === divId) {
          div.style.display = "block";
+         div.style.height = "100%";
+         div.style.lineHeight = "30px";
+         div.style.fontWeight = "bolder";
+         div.style.backgroundColor = "White";
        } else {
          div.style.display = "none";
        }
