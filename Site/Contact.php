@@ -27,9 +27,9 @@ require 'PHPMailer/src/SMTP.php';
           <input type="text" name="voornaam" class="voornaam" placeholder="Voornaam" value="">
           <input type="text" name="achternaam" class="achternaam" placeholder="achternaam" value="">
           <input type="email" name="e_mail" placeholder="Wat is uw e-mail?" value="">
-          <textarea class="opmerking" type="text" name="opmerking" placeholder="Wat is uw vraag / opmerking?" value=""></textarea>
+          <textarea class="opmerking" type="text" name="opmerking" placeholder="Wat is uw vraag / opmerking?" cols="67" rows="5"></textarea>
           <input class="submit" type="submit" name="submit" value="submit">
-          <input class="reset" type="reset" name="reset" value="Reset">
+          <input class="reset" type="reset" name="reset" value="reset">
         </form>
       </div>
     </div>

@@ -17,10 +17,9 @@
           <div class="FotoDiv">
             <div class="Foto" style="background-image: url('./components/images/persoon2.jpg');"></div>
           </div>
-          <div class="Space-Between"></div>
           <div class="Text">
             <h1>Soraya</h1>
-            Verkoopster
+            <h4>Verkoopster</h4>
           </div>
         </div>
         <div class="Persoon1 Personen">
@@ -29,27 +28,28 @@
           </div>
           <div class="Text">
             <h1>Marianne</h1>
-            Eigenaresse
+            <h4>Eigenaresse</h4>
           </div>
         </div>
         <div class="Persoon3 Personen">
           <div class="FotoDiv">
             <div class="Foto" style="background-image: url('./components/images/persoon3.jpg');"></div>
           </div>
-          <div class="Space-Between"></div>
           <div class="Text">
             <h1>Denise</h1>
-            Verkoopster
+            <h4>Verkoopster</h4>
           </div>
         </div>
       </div>
 
     </div>
-    <h1 class="OverOns-Uitleg">
-      Waar kun je ons vinden?
-    </h1>
-    <div class="googleMaps">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4856.52802576067!2d4.946539!3d52.510561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6072a76e37671%3A0x5cf52f4f88586d4c!2sPeperstraat+20%2C+1441+BJ+Purmerend!5e0!3m2!1sen!2snl!4v1552300217615" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+    <div class="WaarKunJeOnsVinden-div">
+      <h1 class="OverOns-Uitleg">
+        Waar kun je ons vinden?
+      </h1>
+      <div class="googleMaps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4856.52802576067!2d4.946539!3d52.510561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6072a76e37671%3A0x5cf52f4f88586d4c!2sPeperstraat+20%2C+1441+BJ+Purmerend!5e0!3m2!1sen!2snl!4v1552300217615" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
 
     <h1 class="OverOns-Uitleg">
