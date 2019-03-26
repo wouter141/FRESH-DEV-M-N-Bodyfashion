@@ -25,15 +25,36 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
+  word-wrap: normal;
+  width: 100px;
+}
+
+.dropdownAll{
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .dropdown{
   position: relative;
   margin-top: 2%;
-  width: 8%;
 }
 
+.dropdowndames{
+  position: relative;
+  margin-top: 2%;
+}
+
+.dropbtndames {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -63,22 +84,7 @@
   background-color: lightblue;
 
 }
-.dropbtndames {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
 
-.dropdowndames{
-  position: relative;
-  margin-top: -5%;
-  margin-left: 92%;
-  width: 8%;
-}
 
 .dropdown-contentdames {
   display: none;
@@ -114,6 +120,7 @@
   width: 25%;
   height: 25%;
   margin-left: 35%;
+  word-wrap: normal;
   }
 
 #dropdowncontent-heren-nachtmode  {
