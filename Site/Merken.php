@@ -12,7 +12,7 @@
 
     <div class="page-Content">
     <div class="MerkenPage">
-      <h1 class="Main-Title">Merken</h1>
+      <h1 class="head-title">Merken</h1>
       <h2 class="Main-Paragraaf">Of u nu op zoek bent naar Lingerie, badmode of nachtmode, M&N Bodyfashion heeft het allemaal voor zowel dames als heren!
           De volgende merken kunt u bij M&N Bodyfashion vinden: </h2>
           <hr>

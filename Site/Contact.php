@@ -22,7 +22,7 @@ require 'PHPMailer/src/SMTP.php';
     <div class="page-Content">
     <?php include('./components/Navbar.php') ?>
       <div class="content-contact">
-        <p class="header-Contact"><h1>Contact</h1></p>
+        <div class="head-title"><h1>Contact</h1></div>
         <form class="sendMail"   method="post">
           <input type="text" name="voornaam" class="voornaam" placeholder="Voornaam" value="">
           <input type="text" name="achternaam" class="achternaam" placeholder="achternaam" value="">

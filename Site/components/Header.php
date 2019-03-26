@@ -5,3 +5,4 @@
     <link rel="stylesheet" href="components/css/index.css">
     <link rel="stylesheet" href="components/css/contentMain.css">
     <link rel="stylesheet" href="components/css/contentSpaar.css">
+    <link rel="stylesheet" href="components/css/contentActies.css">

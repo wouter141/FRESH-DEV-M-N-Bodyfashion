@@ -8,7 +8,9 @@
   <body>
     <div class="page-Content">
       <?php include('./components/Navbar.php') ?>
-      abc
-      <div>
+      <div class="head-title">
+        <h1>Acties</h1>
+      </div>
+      <div class="Main-Paragraaf">ZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerweten</div>
   </body>
 </html>

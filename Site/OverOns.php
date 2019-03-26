@@ -9,9 +9,7 @@
   <body>
     <?php include('./components/Navbar.php') ?>
     <div class="page-Content">
-      <h1 class="OverOns-Uitleg">
-        Over Ons
-      </h1>
+      <div class="head-title"><h1>Over Ons</h1></div>
       <div class="AllePersonen">
         <div class="Persoon2 Personen">
           <div class="FotoDiv">

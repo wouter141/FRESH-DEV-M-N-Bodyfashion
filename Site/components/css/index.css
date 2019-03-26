@@ -11,3 +11,8 @@ html, body {
   margin: 51px auto;
   padding-top: 30px;
 }
+
+.head-title{
+  text-align: center;
+  width: 100%;
+}
