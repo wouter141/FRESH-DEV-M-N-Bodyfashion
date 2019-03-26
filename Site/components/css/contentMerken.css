@@ -103,7 +103,9 @@
   cursor: pointer;
 }
 
-.dropdown-contentdames a:hover {background-color: #f1f1f1}
+.dropdown-contentdames a:hover {
+  background-color: #f1f1f1
+}
 
 .dropdowndames:hover .dropdown-contentdames {
   display: block;
