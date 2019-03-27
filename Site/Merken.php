@@ -20,20 +20,20 @@
 
             <div class="dropdown">
               <button class="dropbtn">Heren</button>
-              <div class="dropdown-content" >
-                <a onclick="divVisibility('dropdowncontent-heren-ondermode'); hideClasses()">Ondermode</a>
-                <a onclick="divVisibility('dropdowncontent-heren-nachtmode'); hideClasses()">Nachtmode</a>
-                <a onclick="divVisibility('dropdowncontent-heren-badmode'); hideClasses()">Badmode</a>
+              <div class="dropdown-content">
+                <a onclick="divVisibility('dropdowncontent-heren-ondermode');">Ondermode</a>
+                <a onclick="divVisibility('dropdowncontent-heren-nachtmode');">Nachtmode</a>
+                <a onclick="divVisibility('dropdowncontent-heren-badmode');">Badmode</a>
               </div>
             </div>
             <div class="dropdowndames">
               <button class="dropbtndames">Dames</button>
               <div class="dropdown-contentdames" id="DropDames">
-                <a onclick="divVisibility('dropdowncontent-dames-lingerie'); hideClasses()">Lingerie</a>
-                <a onclick="divVisibility('dropdowncontent-dames-badmode'); hideClasses()">Badmode</a>
-                <a onclick="divVisibility('dropdowncontent-dames-nachtmode'); hideClasses()">Nachtmode</a>
-                <a onclick="divVisibility('dropdowncontent-dames-accessoires'); hideClasses()">Accessoires</a>
-                <a onclick="divVisibility('dropdowncontent-dames-shapewear'); hideClasses()">Shapewear</a>
+                <a onclick="divVisibility('dropdowncontent-dames-lingerie');">Lingerie</a>
+                <a onclick="divVisibility('dropdowncontent-dames-badmode');">Badmode</a>
+                <a onclick="divVisibility('dropdowncontent-dames-nachtmode');">Nachtmode</a>
+                <a onclick="divVisibility('dropdowncontent-dames-accessoires');">Accessoires</a>
+                <a onclick="divVisibility('dropdowncontent-dames-shapewear');">Shapewear</a>
               </div>
             </div>
           </div>
