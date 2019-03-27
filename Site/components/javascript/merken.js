@@ -25,3 +25,7 @@ var divs = ["dropdowncontent-heren-ondermode", "dropdowncontent-heren-nachtmode"
        }
      }
    }
+function hideClasses() {
+  document.getElementsByClassName("dropdown-contentdames").style.display="none";
+  document.getElementsByClassName("dropdown-content").style.display="none";
+}
