@@ -8,5 +8,6 @@
       <a href="./Spaarsysteem.php" class="Ancher-Tag"><li class="list-Navigatie">Spaarsysteem</li></a>
       <a href="./Acties.php" class="Ancher-Tag"><li class="list-Navigatie">Acties</li></a>
       <a href="./Contact.php" class="Ancher-Tag"><li class="list-Navigatie">Contact</li></a>
+      <a href="https://m-en-n.lingerie-styling.nl/" class="Ancher-Tag" target="_blank"><li class="list-Navigatie">Webshop</li></a>
     </ul>
   </nav>
