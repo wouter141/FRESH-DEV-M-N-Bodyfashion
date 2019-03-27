@@ -19,7 +19,7 @@
         </div>
         <div class="ActiesOnder">
           <h1>Verloting</h1>
-            <button type="button" name="button" class="ActiesButtonsOnder"><p>Kijk of u ook heeft gewonnen!</p></button>
+            <button type="button" name="button" class="ActiesButtonsOnder"><a href="Lijst.php"><p>Kijk of u ook heeft gewonnen!</p></a></button>
         </div>
       </div>
     </div>
