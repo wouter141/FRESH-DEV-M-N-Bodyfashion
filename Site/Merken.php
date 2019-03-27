@@ -6,6 +6,7 @@
     <title>Merken</title>
     <script src="components/javascript/merken.js"></script>
     <?php include('./components/header.php'); ?>
+    <style>#footer{position: absolute; top: 80%; padding-top: 20px; padding-bottom: 20px; width: 100%;}</style>
   </head>
   <body>
     <?php include('./components/Navbar.php') ?>
