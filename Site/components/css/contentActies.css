@@ -10,18 +10,19 @@
 }
 
 .ActiesButtons{
-    height: 100px;
-    width: 100px;
-    display: flex;
-    align-self: center;
-    text-align: center;
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 5%;
+  width: 11%;
+  box-shadow: 2px 2px 2px grey;
 }
 
-.ActiesButtons > p{
-  position: relative;
-  top: 40%;
-  left: 6%;
-  text-align: center;
+.ActiesButtons:hover{
+  background-color: grey
 }
 
 .ActiesOnder{
