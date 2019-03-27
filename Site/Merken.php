@@ -37,7 +37,7 @@
               </div>
             </div>
           </div>
-          <div id="dropdowncontent-heren-ondermode">
+          <div class="dropdowncontent" id="dropdowncontent-heren-ondermode">
             <h2>Heren ondermode</h2><br>
             Sloggi <br>
             Mey <br>
@@ -45,7 +45,7 @@
             Calvin Klein <br>
             Björn Borg <br>
           </div>
-          <div id="dropdowncontent-heren-nachtmode">
+          <div class="dropdowncontent" id="dropdowncontent-heren-nachtmode">
             <h2>Heren nachtmode</h2><br>
             Taubert <br>
             Mey <br>
@@ -53,7 +53,7 @@
             Calvin Klein <br>
             Björn Borg <br>
           </div>
-          <div id="dropdowncontent-heren-badmode">
+          <div class="dropdowncontent" id="dropdowncontent-heren-badmode">
             <h2>Heren badmode</h2><br>
             Brunotti <br>
             Mey <br>
@@ -61,7 +61,7 @@
             Calvin Klein <br>
             Björn Borg <br>
           </div>
-          <div id="dropdowncontent-dames-lingerie">
+          <div class="dropdowncontent" id="dropdowncontent-dames-lingerie">
             <h2>Dames lingerie</h2><br>
             Anita<br>
             Antigel<br>
@@ -88,7 +88,7 @@
             Wacoal<br>
             Wonderbra<br>
           </div>
-          <div id="dropdowncontent-dames-badmode">
+          <div class="dropdowncontent" id="dropdowncontent-dames-badmode">
             <h2>Dames badmode</h2><br>
             Anita<br>
             Antigel<br>
@@ -105,7 +105,7 @@
             Seafolly<br>
             Sunflair<br>
           </div>
-          <div id="dropdowncontent-dames-nachtmode">
+          <div class="dropdowncontent" id="dropdowncontent-dames-nachtmode">
             <h2>Dames nachtmode</h2><br>
             Calvin Klein<br>
             Cyell<br>
@@ -114,7 +114,7 @@
             SNURK<br>
             Taubert<br>
           </div>
-          <div id="dropdowncontent-dames-accessoires">
+          <div class="dropdowncontent" id="dropdowncontent-dames-accessoires">
             <h2>Dames accessoires</h2><br>
             Happy Socks<br>
             Ipanema<br>
@@ -124,7 +124,7 @@
             Soak Wash<br>
             Wolford<br>
           </div>
-          <div id="dropdowncontent-dames-shapewear">
+          <div class="dropdowncontent" id="dropdowncontent-dames-shapewear">
             <h2>Dames shapewear</h2><br>
             Magic Products<br>
             Maidenform<br>
