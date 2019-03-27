@@ -220,9 +220,8 @@
     ##MyIphone = 375 px
   */
 
-  @media (min-width: 320px) and (max-width: 480px) {
-    .dropdown{
-      }
+  @media (min-width: 319px) and (max-width: 480px) {
+
   }
 
   @media (hover: none) {
