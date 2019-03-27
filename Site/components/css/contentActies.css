@@ -93,19 +93,6 @@
     margin: 16px;
   }
 }
-
-@media (min-width: 768px) and (max-width: 830px) {
-  .ActiesTop{
-      display: flex;
-      flex-direction: column;
-      align-content: space-between;
-      justify-content: center;
-  }
-  
-  .ActiesButtons{
-    margin: 16px;
-  }
-}
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -120,6 +107,10 @@
 
   .ActiesButtons{
     margin: 16px;
+  }
+
+  .ImageActies{
+    display: none;
   }
 }
 /*
@@ -138,6 +129,9 @@
   .ActiesButtons{
     margin: 16px;
   }
+  .ImageActies{
+    display: none;
+  }
 }
 @media (max-width: 320px) {
   .ActiesTop{
@@ -149,5 +143,8 @@
 
   .ActiesButtons{
     margin: 16px;
+  }
+  .ImageActies{
+    display: none;
   }
 }

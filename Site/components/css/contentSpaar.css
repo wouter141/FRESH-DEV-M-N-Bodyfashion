@@ -56,9 +56,7 @@
   }
 
   .foto-Spaar{
-    width: 100%;
-    background-size: cover;
-    background-position: center top;
+    display: none;
   }
 }
 /*
@@ -74,9 +72,7 @@
   }
 
   .foto-Spaar{
-    width: 100%;
-    background-size: cover;
-    background-position: center top;
+    display: none;
   }
 }
 @media (max-width: 319px) {
@@ -87,8 +83,6 @@
   }
 
   .foto-Spaar{
-    width: 100%;
-    background-size: cover;
-    background-position: center top;
+    display: none;
   }
 }
