@@ -18,10 +18,9 @@
 }
 
 .dropdownAll{
-  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   }
 
 .dropdown{
@@ -107,9 +106,9 @@
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
+
   word-wrap: normal;
   }
 
@@ -117,65 +116,64 @@
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
+
   }
 
 #dropdowncontent-heren-badmode  {
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
+
   }
 
 #dropdowncontent-dames-lingerie  {
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
+
   }
 
 #dropdowncontent-dames-badmode  {
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
+
   }
 
 #dropdowncontent-dames-nachtmode  {
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
+
   }
 
 #dropdowncontent-dames-accessoires  {
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
+
   }
 
 #dropdowncontent-dames-shapewear  {
   display: none;
   text-align: center;
   position: relative;
-  width: 25%;
+  width: 100%;
   height: 25%;
-  margin-left: 35%;
-  }
 
+  }
 
   /*
     ##Device = Desktops
@@ -224,7 +222,8 @@
 
   @media (min-width: 320px) and (max-width: 480px) {
     .dropdown{
-      margin-right: 50%;
       }
+  }
 
+  @media (hover: none) {
   }
