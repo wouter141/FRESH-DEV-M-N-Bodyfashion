@@ -62,7 +62,7 @@
             Björn Borg <br>
           </div>
           <div id="dropdowncontent-dames-lingerie">
-            <h2>Dames lingerie</h2>
+            <h2>Dames lingerie</h2><br>
             Anita<br>
             Antigel<br>
             Björn Borg<br>
@@ -90,15 +90,45 @@
           </div>
           <div id="dropdowncontent-dames-badmode">
             <h2>Dames badmode</h2><br>
+            Anita<br>
+            Antigel<br>
+            Baku<br>
+            Beachlife<br>
+            Cyell<br>
+            Luli Fama<br>
+            Marc & Andre<br>
+            Marie-Jo<br>
+            Mila<br>
+            Miracle Suit<br>
+            Opera<br>
+            Rosa Faia<br>
+            Seafolly<br>
+            Sunflair<br>
           </div>
           <div id="dropdowncontent-dames-nachtmode">
             <h2>Dames nachtmode</h2><br>
+            Calvin Klein<br>
+            Cyell<br>
+            Jensen<br>
+            Mey<br>
+            SNURK<br>
+            Taubert<br>
           </div>
           <div id="dropdowncontent-dames-accessoires">
             <h2>Dames accessoires</h2><br>
+            Happy Socks<br>
+            Ipanema<br>
+            La Decollette<br>
+            Magic Products<br>
+            Oroblu<br>
+            Soak Wash<br>
+            Wolford<br>
           </div>
           <div id="dropdowncontent-dames-shapewear">
             <h2>Dames shapewear</h2><br>
+            Magic Products<br>
+            Maidenform<br>
+            Wolford<br>
           </div>
     </div>
   </div>
