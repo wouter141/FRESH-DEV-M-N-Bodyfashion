@@ -11,6 +11,7 @@
       <div class="head-title">
         <h1>Acties</h1>
       </div>
-      <div class="Main-Paragraaf">ZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerwetenZekerweten</div>
+      <div class="Main-Paragraaf">
+      </div>
   </body>
 </html>
