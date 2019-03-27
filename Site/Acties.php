@@ -14,7 +14,7 @@
       <div class="Main-Paragraaf">
         <div class="ActiesTop">
           <button type="button" name="button" class="ActiesButtons"><a href="#"><p>Zomer Acties!</p></a></button>
-          <img src="./components/images/acties.png" class="ImageActies">
+          <div class="ImageActies"><img src="./components/images/acties.png"></div>
           <button type="button" name="button" class="ActiesButtons"><a href="#"><p>Winter Acties!</p></a></button>
         </div>
         <div class="ActiesOnder">
