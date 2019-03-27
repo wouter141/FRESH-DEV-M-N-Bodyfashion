@@ -12,7 +12,7 @@
 						<li><a class="linkfooter" href="https://www.youtube.com/user/MenNbodyfashion" target="_blank"><img src="components/images/socials/youtube.png"></a></li>
 					</ul>
 					<div class="footer-copyright">
-						<p>Copyright © 2019. All Rights Reserved. <a class="Fresh-link" href=" https://fresh-dev.nl/" target="_blank">FRESH-DEV</a></p>
+						<p>Copyright © 2019. All Rights Reserved. <a class="Fresh-link" href=" https://fresh-dev.nl/" target="_blank">Wouter Wilmink & Ivar Post</a></p>
 					</div>
 				</div>
 			</div>
