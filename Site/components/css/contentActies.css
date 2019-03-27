@@ -1,1 +1,40 @@
+.ActiesTop{
+  display: flex;
+  justify-content: space-around;
+}
 
+.ImageActies{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.ActiesButtons{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+}
+
+.ActiesButtons > p{
+  position: relative;
+  top: 40%;
+  left: 6%;
+  text-align: center;
+}
+
+.ActiesOnder{
+  border-top: 1px dashed black;
+  background-color: ;
+  text-align: center;
+
+  margin-top: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.ActiesOnder > .ActiesButtonsOnder {
+  width: 100%;
+  margin-top: 3%;
+}
