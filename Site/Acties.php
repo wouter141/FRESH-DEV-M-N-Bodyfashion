@@ -13,13 +13,13 @@
       </div>
       <div class="Main-Paragraaf">
         <div class="ActiesTop">
-          <button type="button" name="button" class="ActiesButtons"><p>Zomer Acties!</p></button>
+          <button type="button" name="button" class="ActiesButtons"><a href="#"><p>Zomer Acties!</p></a></button>
           <img src="./components/images/acties.png" class="ImageActies">
-          <button type="button" name="button" class="ActiesButtons"><p>Winter Acties!</p></button>
+          <button type="button" name="button" class="ActiesButtons"><a href="#"><p>Winter Acties!</p></a></button>
         </div>
         <div class="ActiesOnder">
           <h1>Verloting</h1>
-            <button type="button" name="button" class="ActiesButtonsOnder"><p>Kijk of U ook heeft gewonnen!</p></button>
+            <button type="button" name="button" class="ActiesButtonsOnder"><p>Kijk of u ook heeft gewonnen!</p></button>
         </div>
       </div>
     </div>
