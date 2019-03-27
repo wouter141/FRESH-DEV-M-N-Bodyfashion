@@ -6,8 +6,7 @@
     <title>Merken</title>
     <script src="components/javascript/merken.js"></script>
     <?php include('./components/header.php'); ?>
-    <style>#footer{position: absolute; top: 80%; padding-top: 20px; padding-bottom: 20px; width: 100%;}</style>
-  </head>
+    </head>
   <body>
     <?php include('./components/Navbar.php') ?>
 
@@ -39,6 +38,7 @@
             </div>
           </div>
           <div id="dropdowncontent-heren-ondermode">
+            <h2>Heren ondermode</h2><br>
             Sloggi <br>
             Mey <br>
             Hom <br>
@@ -46,6 +46,7 @@
             Björn Borg <br>
           </div>
           <div id="dropdowncontent-heren-nachtmode">
+            <h2>Heren nachtmode</h2><br>
             Taubert <br>
             Mey <br>
             Hom <br>
@@ -53,6 +54,7 @@
             Björn Borg <br>
           </div>
           <div id="dropdowncontent-heren-badmode">
+            <h2>Heren badmode</h2><br>
             Brunotti <br>
             Mey <br>
             Hom <br>
@@ -60,19 +62,43 @@
             Björn Borg <br>
           </div>
           <div id="dropdowncontent-dames-lingerie">
-            Lingerie dames
+            <h2>Dames lingerie</h2>
+            Anita<br>
+            Antigel<br>
+            Björn Borg<br>
+            B.tempt'd<br>
+            Calvin Klein<br>
+            Chantelle<br>
+            Empreinte<br>
+            Fantasie<br>
+            Freya<br>
+            Implicite<br>
+            L'Aventure<br>
+            Maidenform<br>
+            Marc & Andre<br>
+            Marie-Jo<br>
+            Mey<br>
+            PrimaDonna<br>
+            Rosa Faia<br>
+            Shockabsorber<br>
+            Simone Perele<br>
+            Sloggi<br>
+            Triumph<br>
+            Twist<br>
+            Wacoal<br>
+            Wonderbra<br>
           </div>
           <div id="dropdowncontent-dames-badmode">
-            Badmode dames
+            <h2>Dames badmode</h2><br>
           </div>
           <div id="dropdowncontent-dames-nachtmode">
-            Nachtmode dames
+            <h2>Dames nachtmode</h2><br>
           </div>
           <div id="dropdowncontent-dames-accessoires">
-            Accessoires dames
+            <h2>Dames accessoires</h2><br>
           </div>
           <div id="dropdowncontent-dames-shapewear">
-            Shapewear dames
+            <h2>Dames shapewear</h2><br>
           </div>
     </div>
   </div>
