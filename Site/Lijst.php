@@ -17,6 +17,9 @@
         <div class="prijswinnaars-text">
           <h1>Prijswinnaars verloting lingerieset</h1>
         </div>
+        <div class="GaNaarEenGrootScherm">
+          <h2>Om dit te kunnen zien moet u naar een groter scherm.</h2>
+        </div>
       <div class="container-flex">
         <div class="prijswinnaars">
           <ul>
