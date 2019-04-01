@@ -19,6 +19,10 @@
   margin-bottom: 1em;
 }
 
-.prijs-lingerieset ul{
+.prijswinnaars ul{
   list-style-type: none;
+}
+
+.prijswinnaars-text2{
+  margin-top: 2%;
 }
