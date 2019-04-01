@@ -100,10 +100,18 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1024px) {
   .WaarKunJeOnsVinden-div > .OverOns-Uitleg{
     padding-top: 30px;
     text-align: center;
+  }
+}
+
+
+@media (min-width:790px) and (max-width: 800px) {
+  .Foto{
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -112,7 +120,7 @@
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 790px) {
   .AllePersonen{
     flex-direction: column;
     justify-content: center;
