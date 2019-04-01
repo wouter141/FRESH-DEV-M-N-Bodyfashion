@@ -11,20 +11,35 @@
       <div class="head-title">
         <h1>Heeft u gewonnen?</h1>
       </div>
+        <div class="prijswinnaars-text">
+          <h1>Prijswinnaars verloting lingerieset</h1>
+        </div>
       <div class="container-flex">
         <div class="prijs-lingerieset">
-          <h1>Prijswinnaars verloting lingerieset</h1>
-          <p>Zaterdag 29-8: mevr. I. Kan	bonnr. 80397</p>
-          Zondag 30-8: 	mevr. G. de Wildt	bonnr. 80412
-          Maandag 31-8: 	mevr. B. de Jong	bonnr. 80433
-          Dinsdag 1-9: 	mevr. C.F. de Boer	bonnr. 80453
-          Woensdag 2-9: 	mevr. L. Jonk	bonnr. 80492
-          Donderdag 3-9: 	mevr. I. Wijers	bonnr. 80534
-          Vrijdag 4-9: 	mevr. S. Jonk	bonnr. 80586
-          Zaterdag 5-9: 	mevr. M. Poland	bonnr. 80647
-          Zondag 6-9: 	mevr. L. de Waal	bonnr. 80755
+          <ul>
+            <li>Zaterdag 29-8:</li>
+            <li>Zondag 30-8:</li>
+            <li>Maandag 31-8:</li>
+            <li>Dinsdag 1-9:</li>
+            <li>Woensdag 2-9:</li>
+            <li>Donderdag 3-9:</li>
+            <li>Vrijdag 4-9:</li>
+            <li>Zaterdag 5-9:</li>
+            <li>Zondag 6-9:</li>
+          </ul>
         </div>
-        <div>2</div>
+        <div class="prijs-lingerieset">
+          <ul>
+            <li>mevr. I. Kan</li>
+            <li>mevr. G. de Wildt</li>
+            <li>mevr. B. de Jong</li>
+            <li>mevr. C.F. de Boer</li>
+            <li>mevr. L. Jonk</li>
+            <li>mevr. I. Wijers</li>
+            <li>mevr. S. Jonk</li>
+            <li>mevr. M. Poland</li>
+            <li>mevr. L. de Waal</li>
+        </div>
         <div>3</div>
       </div>
       </div>

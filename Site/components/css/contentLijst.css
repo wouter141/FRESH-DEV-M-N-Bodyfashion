@@ -1,16 +1,24 @@
+.head-title{
+  padding-top: 1%;
+}
+
 .container-flex{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .container-flex div{
   text-align: center;
   width: 50%;
-  background-color: red;
-  margin-bottom: 50px;
 }
 
-.prijs-lingerieset h1{
+.prijswinnaars-text h1{
+  text-align: center;
+  width: 35%;
   font-size: 13pt;
   margin-bottom: 1em;
+}
+
+.prijs-lingerieset ul{
+  list-style-type: none;
 }
