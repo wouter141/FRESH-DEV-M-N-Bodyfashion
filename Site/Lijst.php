@@ -11,6 +11,9 @@
       <div class="head-title">
         <h1>Heeft u gewonnen?</h1>
       </div>
+      <br>
+      <hr>
+      <br>
         <div class="prijswinnaars-text">
           <h1>Prijswinnaars verloting lingerieset</h1>
         </div>
@@ -87,15 +90,15 @@
         </div>
         <div class="prijswinnaars">
           <ul>
-            <li>Zaterdag 29-8:</li>
-            <li>Zondag 30-8:</li>
-            <li>Maandag 31-8:</li>
-            <li>Dinsdag 1-9:</li>
-            <li>Woensdag 2-9:</li>
-            <li>Donderdag 3-9:</li>
-            <li>Vrijdag 4-9:</li>
-            <li>Zaterdag 5-9:</li>
-            <li>Zondag 6-9:</li>
+            <li>bonnr. 80389</li>
+            <li>bonnr. 80417</li>
+            <li>bonnr. 80431</li>
+            <li>bonnr. 80476</li>
+            <li>bonnr. 80493</li>
+            <li>bonnr. 80527</li>
+            <li>bonnr. 80585</li>
+            <li>bonnr. 80646</li>
+            <li>bonnr. 80794</li>
           </ul>
         </div>
       </div>
