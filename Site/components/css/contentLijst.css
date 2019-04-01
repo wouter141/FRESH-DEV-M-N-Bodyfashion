@@ -1,8 +1,16 @@
-.Lijst-Lijst{
-  margin-top: 100px;
-  text-align: center;
+.container-flex{
+  display: flex;
+  flex-direction: column;
 }
 
-.table td{
- text-align: center;
+.container-flex div{
+  text-align: center;
+  width: 50%;
+  background-color: red;
+  margin-bottom: 50px;
+}
+
+.prijs-lingerieset h1{
+  font-size: 13pt;
+  margin-bottom: 1em;
 }

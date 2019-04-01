@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title></title>
+    <title>Prijswinnaars</title>
   </head>
   <body>
     <div class="page-Content">
@@ -11,49 +11,22 @@
       <div class="head-title">
         <h1>Heeft u gewonnen?</h1>
       </div>
-      <div class="Lijst">
-        <div class="Lijst-Lingerie Lijst-Lijst">
-          <table class="Table">
-            <tr>Lingerie-set
-            <td>Hi</td><td>Hi</td></tr>
-          </table>
+      <div class="container-flex">
+        <div class="prijs-lingerieset">
+          <h1>Prijswinnaars verloting lingerieset</h1>
+          <p>Zaterdag 29-8: mevr. I. Kan	bonnr. 80397</p>
+          Zondag 30-8: 	mevr. G. de Wildt	bonnr. 80412
+          Maandag 31-8: 	mevr. B. de Jong	bonnr. 80433
+          Dinsdag 1-9: 	mevr. C.F. de Boer	bonnr. 80453
+          Woensdag 2-9: 	mevr. L. Jonk	bonnr. 80492
+          Donderdag 3-9: 	mevr. I. Wijers	bonnr. 80534
+          Vrijdag 4-9: 	mevr. S. Jonk	bonnr. 80586
+          Zaterdag 5-9: 	mevr. M. Poland	bonnr. 80647
+          Zondag 6-9: 	mevr. L. de Waal	bonnr. 80755
         </div>
-        <div class="Lijst-Short Lijst-Lijst">
-          <table class="Table">
-            <tr>Lingerie-set</tr>
-            <tr><td>Hi</td><td>Hi</td></tr>
-          </table>
-        </div>
-        <div class="Lijst-Sept Lijst-Lijst">
-          <table class="Table">
-            <tr>Lingerie-set</tr>
-            <tr><td>Hi</td><td>Hi</td></tr>
-          </table>
-        </div>
-        <div class="Lijst-Okt Lijst-Lijst">
-          <table class="Table">
-            <tr>Lingerie-set</tr>
-            <tr><td>Hi</td><td>Hi</td></tr>
-          </table>
-        </div>
-        <div class="Lijst-Nov Lijst-Lijst">
-          <table class="Table">
-            <tr>Lingerie-set</tr>
-            <tr><td>Hi</td><td>Hi</td></tr>
-          </table>
-        </div>
-        <div class="Lijst-Dec Lijst-Lijst">
-          <table class="Table">
-            <tr>Lingerie-set</tr>
-            <tr><td>Hi</td><td>Hi</td></tr>
-          </table>
-        </div>
-        <div class="Lijst-Jan Lijst-Lijst">
-          <table class="Table">
-            <tr>Lingerie-set</tr>
-            <tr><td>Hi</td><td>Hi</td></tr>
-          </table>
-        </div>
+        <div>2</div>
+        <div>3</div>
+      </div>
       </div>
     </div>
     <?php include('./components/Footer.php'); ?>
