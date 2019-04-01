@@ -97,7 +97,7 @@ $mail = new PHPMailer;
 
     ?>
 		<script type="text/javascript">
-		swal("Uw mail is gestruurd");
+		swal("Uw mail is gestuurd");
 		</script>
 <?php
 		}
