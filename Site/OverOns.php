@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="nl" dir="ltr">
   <head>
     <title>Over Ons</title>
     <?php include('components/Header.php'); ?>

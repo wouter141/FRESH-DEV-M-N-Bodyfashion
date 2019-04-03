@@ -1,6 +1,6 @@
 <?php include('components/Header.php'); ?>
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="nl" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Prijswinnaars</title>
