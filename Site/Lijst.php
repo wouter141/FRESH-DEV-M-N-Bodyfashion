@@ -171,31 +171,6 @@
           </ul>
         </div>
       </div>
-      <div class="prijswinnaars-text prijswinnaars-text2">
-        <h1>Prijswinnaars maand december</h1>
-      </div>
-      <div class="container-flex">
-          <div class="prijswinnaars">
-          <ul>
-            <li>Set van Mey:</li>
-            <li>BH van Maidenform:</li>
-            <li>Set van Wacoal:</li>
-            <li>Set van Chantelle:</li>
-          </ul>
-        </div>
-        <div class="prijswinnaars">
-          <ul>
-            <li>mevr. A. Koopman</li>
-            <li>mevr. C. Lammers</li>
-            <li>mevr. P. Smit</li>
-            <li>mevr. C. Overes</li>
-          </ul>
-        </div>
-        <div class="prijswinnaars">
-          <ul>
-          </ul>
-        </div>
-      </div>
       </div>
     <?php include('./components/Footer.php'); ?>
   </body>
