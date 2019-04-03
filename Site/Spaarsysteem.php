@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <?php include('./components/header.php'); ?>
+    <?php include('components/Header.php'); ?>
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
   </head>
   <body>

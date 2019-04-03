@@ -5,7 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Merken</title>
     <script src="components/javascript/merken.js"></script>
-    <?php include('./components/header.php'); ?>
+    <?php include('components/Header.php'); ?>
     </head>
   <body>
     <div class="ALL" onclick="">
