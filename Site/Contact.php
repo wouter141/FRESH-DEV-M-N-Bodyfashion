@@ -15,7 +15,7 @@ require 'PHPMailer/src/SMTP.php';
     <link rel="stylesheet" href="./components/css/contentContact.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <?php include('./components/header.php'); ?>
+    <?php include('components/Header.php'); ?>
     <title></title>
   </head>
   <body>

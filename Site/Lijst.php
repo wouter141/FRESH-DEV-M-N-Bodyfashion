@@ -1,6 +1,6 @@
-<?php include('./components/header.php'); ?>
+<?php include('components/Header.php'); ?>
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="nl" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Prijswinnaars</title>
@@ -105,8 +105,76 @@
           </ul>
         </div>
       </div>
+      <div class="prijswinnaars-text prijswinnaars-text2">
+        <h1>Prijswinnaars maand september</h1>
       </div>
-    </div>
+      <div class="container-flex">
+          <div class="prijswinnaars">
+          <ul>
+            <li>Set van Mey:</li>
+            <li>Herenshort van HOM:</li>
+          </ul>
+        </div>
+        <div class="prijswinnaars">
+          <ul>
+            <li>mevr. J. Tijssens</li>
+            <li>mevr. van der Meiden</li>
+          </ul>
+        </div>
+        <div class="prijswinnaars">
+          <ul>
+          </ul>
+        </div>
+      </div>
+      <div class="prijswinnaars-text prijswinnaars-text2">
+        <h1>Prijswinnaars maand oktober</h1>
+      </div>
+      <div class="container-flex">
+          <div class="prijswinnaars">
+          <ul>
+            <li>Set van Simone Perele:</li>
+            <li>Brunotti zwemshort:</li>
+            <li>BH van Rosa Faia:</li>
+          </ul>
+        </div>
+        <div class="prijswinnaars">
+          <ul>
+            <li>mevr. J. Fierlings</li>
+            <li>mevr. J. de Ridder</li>
+            <li>mevr. F. Moerman </li>
+          </ul>
+        </div>
+        <div class="prijswinnaars">
+          <ul>
+          </ul>
+        </div>
+      </div>
+      <div class="prijswinnaars-text prijswinnaars-text2">
+        <h1>Prijswinnaars maand november</h1>
+      </div>
+      <div class="container-flex">
+          <div class="prijswinnaars">
+          <ul>
+            <li>Set van Mey:</li>
+            <li>BH van Maidenform:</li>
+            <li>Set van Wacoal:</li>
+            <li>Set van Chantelle:</li>
+          </ul>
+        </div>
+        <div class="prijswinnaars">
+          <ul>
+            <li>mevr. A. Koopman</li>
+            <li>mevr. C. Lammers</li>
+            <li>mevr. P. Smit</li>
+            <li>mevr. C. Overes</li>
+          </ul>
+        </div>
+        <div class="prijswinnaars">
+          <ul>
+          </ul>
+        </div>
+      </div>
+      </div>
     <?php include('./components/Footer.php'); ?>
   </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="nl" dir="ltr">
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>M&N Bodyfashion</title>
-    <?php include('./components/header.php'); ?>
+    <?php include('components/Header.php'); ?>
     <script src="components/javascript/index.js"></script>
   </head>
   <body>

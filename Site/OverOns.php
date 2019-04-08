@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="nl" dir="ltr">
   <head>
     <title>Over Ons</title>
-    <?php include('./components/header.php'); ?>
+    <?php include('components/Header.php'); ?>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title></title>
   </head>
