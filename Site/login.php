@@ -1,13 +1,20 @@
 <?php session_start(); ?>
-<?php error_reporting("none"); ?>
+<?php error_reporting("all"); ?>
 
 <!DOCTYPE html>
 <html>
     <head>
+      <?php include('components/header.php'); ?>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title></title>
     </head>
     <body>
-        <div class="content">
-            <div class="login">
+      <div class="page-Content">
+        <?php include('./components/Navbar.php') ?>
+        <div class="head-title">
+          <h1>Login</h1>
+        </div>
+        <div class="Main-Paragraaf">
                 <form action="./components/SetLogin.php" method="post">
                     <div class="title">Inloggen</div>
                     <label for="email">E-mailadres</label>
@@ -18,11 +25,9 @@
                     <div class="btns">
                         <button name="submit" type="submit">Volgende</button>
                     </div>
-                    <?php if($_SESSION['is_admin']) { ?>
-                      <button type="button" name="button">HIIII</button>
-                    <?php } ?>
                 </form>
             </div>
         </div>
+        <?php include('./components/Footer.php'); ?>
     </body>
 </html>

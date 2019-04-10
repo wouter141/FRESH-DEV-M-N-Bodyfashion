@@ -19,15 +19,15 @@ if(isset($_POST["submit"])){
         $email = htmlspecialchars($_POST["email"]);
         $password = htmlspecialchars($_POST["password"]);
 
-        $sql = "SELECT * FROM user WHERE email = :email";
+        $sql = "SELECT * FROM user WHERE mail = :email";
         $statement = $conn->prepare($sql);
         $statement->execute(array(":email" => $email));
         $user = $statement->fetch(PDO::FETCH_ASSOC);
 
 
-     	if($user["email"] == $email){
+     	if($user["mail"] == $email){
 
-          if ($user["admin"] == false)
+          if ($user["admin"] == 0)
             exit(header($headLink));
 
     	    if($password == $user["password"]){
