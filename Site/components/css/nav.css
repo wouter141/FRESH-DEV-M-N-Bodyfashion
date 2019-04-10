@@ -43,7 +43,11 @@ label {
 
 .scrolled .list-Navigatie{
   color: black;
+}
 
+.login_logout {
+  position: absolute;
+  right: 0%;
 }
 
 
@@ -121,8 +125,11 @@ label {
   #toggle:checked + .List-Nav{
     display: block;
   }
-  .list-Navigatie {
+  .scrolled .list-Navigatie{
     color: white;
+  }
+  .login_logout {
+    position: inherit;
   }
 }
 
@@ -167,11 +174,14 @@ label {
     padding-bottom: 20px;
   }
 
-  .list-Navigatie {
+  .scrolled .list-Navigatie{
     color: white;
   }
   #toggle:checked + .List-Nav{
     display: block;
+  }
+  .login_logout {
+    position: inherit;
   }
 }
 
@@ -212,9 +222,7 @@ label {
     display: block;
   }
 
-  .list-Navigatie {
-    color: white;
-    background-color: #1C1D21;
-
+  .login_logout {
+    position: inherit;
   }
 }
