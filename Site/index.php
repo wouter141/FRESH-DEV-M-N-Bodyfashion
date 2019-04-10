@@ -8,8 +8,16 @@
     <script src="components/javascript/index.js"></script>
   </head>
   <body>
-    <div class="banner"></div>
-    <?php include('./components/Navbar.php') ?>
+    <div class="banner">
+      <?php
+        require('./components/dbconn.php');
+        $sql = "SELECT * FROM images";
+            foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+              echo 'image: ' . $row['images'] . '<br>';
+            }
+      ?>
+    </div>
+  <!--  <?php include('./components/Navbar.php') ?> -->
     <div class="page-Content">
       <div class="body-text">
         <div class="wrapper">

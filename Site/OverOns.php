@@ -46,8 +46,10 @@
         Waar kun je ons vinden?
       </h1>
       <div class="googleMaps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4856.52802576067!2d4.946539!3d52.510561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6072a76e37671%3A0x5cf52f4f88586d4c!2sPeperstraat+20%2C+1441+BJ+Purmerend!5e0!3m2!1sen!2snl!4v1552300217615" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-      </div>
+        <?php
+          $address = 'Peperstraat 20, Purmerend';
+          echo '<iframe frameborder="0" src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=' . str_replace(",", "", str_replace(" ", "+", $address)) . '&z=14&output=embed" width="100%" height="400" frameborder="0" allowfullscreen></iframe>';
+        ?>
     </div>
 
     <h1 class="OverOns-Uitleg">
