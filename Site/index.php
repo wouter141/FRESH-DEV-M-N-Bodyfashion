@@ -4,20 +4,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>M&N Bodyfashion</title>
-    <?php include('components/Header.php'); ?>
+    <?php include('components/header.php'); ?>
     <script src="components/javascript/index.js"></script>
   </head>
   <body>
     <div class="banner">
       <?php
         require('./components/dbconn.php');
-        $sql = "SELECT * FROM images";
+        $sql = "SELECT image_naam FROM images";
             foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
-              echo 'image: ' . $row['images'] . '<br>';
+              $naam_image = "./components/images/";
+              $naam_image .= $row['image_naam'];
+              echo "<img class='banner' src='".$naam_image."'>";
             }
       ?>
+      <div class="Admin_Wijziging_Knop_Image">
+        <?php
+          if($_SESSION['is_admin']) {
+            echo"<button type='button' name='button'>HIIII</button>";
+          }
+          else {
+            echo"Hi";
+          }
+        ?>
+      </div>
+
     </div>
-  <!--  <?php include('./components/Navbar.php') ?> -->
+  <?php include('./components/Navbar.php') ?>
     <div class="page-Content">
       <div class="body-text">
         <div class="wrapper">

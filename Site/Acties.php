@@ -22,9 +22,6 @@
             <button type="button" name="button" class="ActiesButtonsOnder"><a href="Lijst.php"><p>Kijk of u ook heeft gewonnen!</p></a></button>
         </div>
       </div>
-      <?php if($_SESSION['is_admin']) { ?>
-        <button type="button" name="button">HIIII</button>
-      <?php } ?>
     </div>
     <?php include('./components/Footer.php'); ?>
   </body>
