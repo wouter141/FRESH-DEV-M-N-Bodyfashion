@@ -21,7 +21,7 @@
       <div class="Admin_Wijziging_Knop_Image">
         <?php
           if($_SESSION['is_admin']) {
-            echo"<button type='button' name='button'>HIIII</button>";
+            echo"<button type='button' name='button'>wijzig image</button>";
           }
           else {
             echo"Hi";
