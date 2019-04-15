@@ -6,7 +6,6 @@
     <title>M&N Bodyfashion</title>
     <?php include('components/header.php'); ?>
     <script src="components/javascript/index.js"></script>
-    <?php session_start();?>
   </head>
   <body>
     <div class="banner">
@@ -22,10 +21,10 @@
       <div class="Admin_Wijziging_Knop_Image">
         <?php
           if($_SESSION['is_admin']) {
-            echo"<button type='button' name='button'>Wijzig Image</button>";
+            echo"<button type='button' name='button'>HIIII</button>";
           }
           else {
-            echo"";
+            echo"Hi";
           }
         ?>
       </div>
@@ -35,30 +34,14 @@
     <div class="page-Content">
       <div class="body-text">
         <div class="wrapper">
-
-          <h1 class="Main-Title">
-            Welkom bij M&N Bodyfashion
-              <?php
-                if($_SESSION['is_admin']){
-                  echo"<button type='button' name='button'>Wijzig tekst van de titel</button>";}
-                else {
-                  echo"";}
-              ?>
-          </h1>
+          <h1 class="Main-Title">Welkom bij M&N Bodyfashion</h1>
           <h2 class="Main-Paragraaf">
             Luxe lingerie, modieuze badmode, comfortabele homewear en stoer herenondergoed.
             Dat is M&N Bodyfashion: <br><br>
 
             Hét adres waar we geloven in een eerlijk, deskundig en persoonlijk advies.
 
-            De winkel heeft een enorm assortiment dameslingerie van de bekende merken, badmode en homewear.
-            <?php
-              if($_SESSION['is_admin']){
-                echo"<button type='button' name='button'>Wijzig deze tekst</button>";}
-              else {
-                echo"";}
-            ?>
-          </h2>
+            De winkel heeft een enorm assortiment dameslingerie van de bekende merken, badmode en homewear.</h2>
           </div>
         </div>
       </div>
