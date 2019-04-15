@@ -5,12 +5,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Merken</title>
     <script src="components/javascript/merken.js"></script>
-    <?php include('components/Header.php'); ?>
+    <?php include('components/header.php'); ?>
+    <?php session_start();?>
     </head>
   <body>
     <div class="ALL" onclick="">
       <?php include('./components/Navbar.php') ?>
-
       <div class="page-Content">
         <div class="MerkenPage">
           <h1 class="head-title">Merken</h1>

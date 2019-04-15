@@ -1,16 +1,7 @@
 <?php session_start(); ?>
-<?php include_once('dbconn.php'); ?>
+<?php include_once('dbconn.php');
 
-
-<?php
-
-
-$headLink = "Location: /FRESH-DEV-M-N-Bodyfashion/site/index.php";
-
-if(isset($_SESSION['logged_in']))
-  exit(header($headLink));
-
-
+$headLink = "Location: /ivar-wouter/index.php";
 $loginError = "Email of wachtwoord is incorrect.";
 
 if(isset($_POST["submit"])){
@@ -27,11 +18,9 @@ if(isset($_POST["submit"])){
 
      	if($user["mail"] == $email){
 
-          if ($user["admin"] == 0)
-            exit(header($headLink));
-
     	    if($password == $user["password"]){
     	    	//nu inloggen
+            session_start();
     	    	$_SESSION['logged_in'] = true;
     	    	$_SESSION['is_admin'] = $user["admin"];
     	    	$_SESSION['email'] = $user["email"];

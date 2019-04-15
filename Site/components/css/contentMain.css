@@ -29,3 +29,9 @@
     padding: 2rem 0;
     line-height: 2rem;
   }
+
+.Admin_Wijziging_Knop_Image{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

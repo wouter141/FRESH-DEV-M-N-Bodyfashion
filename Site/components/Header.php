@@ -7,4 +7,3 @@
     <link rel="stylesheet" href="./components/css/contentSpaar.css">
     <link rel="stylesheet" href="./components/css/contentActies.css">
     <link rel="stylesheet" href="./components/css/contentLijst.css">
-    <?php session_start(); ?>

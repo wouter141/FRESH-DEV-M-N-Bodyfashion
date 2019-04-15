@@ -15,16 +15,19 @@
           <h1>Login</h1>
         </div>
         <div class="Main-Paragraaf">
+          <div class="title">Inloggen</div>
                 <form action="./components/SetLogin.php" method="post">
-                    <div class="title">Inloggen</div>
+                  <div class="mails">
                     <label for="email">E-mailadres</label>
-                    <input type="email" name="email" placeholder="Voer uw e-mailadres in" required autofocus>
-                    <br>
+                    <input class="email" type="email" name="email" placeholder="Voer uw e-mailadres in" required autofocus>
+                  </div>
+                  <div class="passwordDiv">
                     <label for="password">Password</label>
                     <input type="password" name="password" placeholder="Voer uw wachtwoord in" required>
-                    <div class="btns">
-                        <button name="submit" type="submit">Volgende</button>
-                    </div>
+                  </div>
+                  <div class="btns">
+                    <button name="submit" type="submit">Volgende</button>
+                  </div>
                 </form>
             </div>
         </div>

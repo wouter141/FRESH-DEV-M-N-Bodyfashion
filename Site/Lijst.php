@@ -1,9 +1,10 @@
-<?php include('components/Header.php'); ?>
+<?php include('components/header.php'); ?>
 <!DOCTYPE html>
 <html lang="nl" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Prijswinnaars</title>
+    <?php session_start();?>
   </head>
   <body>
     <div class="page-Content">

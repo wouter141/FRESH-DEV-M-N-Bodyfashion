@@ -1,9 +1,11 @@
-<?php include('components/header.php'); ?>
 <!DOCTYPE html>
 <html lang="nl" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title></title>
+    <?php include('components/header.php'); ?>
+    <?php session_start();?>
+
   </head>
   <body>
     <div class="page-Content">
@@ -22,9 +24,6 @@
             <button type="button" name="button" class="ActiesButtonsOnder"><a href="Lijst.php"><p>Kijk of u ook heeft gewonnen!</p></a></button>
         </div>
       </div>
-      <?php if($_SESSION['is_admin']) { ?>
-        <button type="button" name="button">HIIII</button>
-      <?php } ?>
     </div>
     <?php include('./components/Footer.php'); ?>
   </body>
