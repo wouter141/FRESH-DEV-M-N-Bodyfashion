@@ -1,0 +1,34 @@
+.merkenTitle{
+    text-align: center;
+}
+
+.HerenEnDames{
+    width: auto;
+    height: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.Heren{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.Dames{
+    width: 35%;
+    margin-left: 5%;
+}
+
+.Naam {
+    padding-left: 20px;
+}
+
+.MerkenRow{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.TitleTable{
+    width: 100%;
+    text-align: center;
+}

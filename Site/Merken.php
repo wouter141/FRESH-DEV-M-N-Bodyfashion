@@ -2,12 +2,31 @@
 <html lang="nl" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Merken</title>
     <script src="components/javascript/merken.js"></script>
     <?php include('components/header.php'); ?>
     <?php session_start();?>
-    </head>
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            height: 500,
+            plugins: [
+                "advlist autolink lists link charmap print preview anchor",
+                "searchreplace visualblocks code fullscreen",
+                "insertdatetime table contextmenu paste"
+            ],
+            toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent",
+            imagetools_cors_hosts: ['www.tinymce.com', 'codepen.io'],
+            content_css: [
+                '//fast.fonts.net/cssapi/e6dc9b99-64fe-4292-ad98-6974f93cd2a2.css',
+                '//www.tinymce.com/css/codepen.min.css'
+            ]
+        });
+    </script>
+  </head>
   <body>
     <div class="ALL" onclick="">
       <?php include('./components/Navbar.php') ?>
@@ -41,96 +60,90 @@
 
             <div class="dropdowncontent" id="dropdowncontent-heren-ondermode">
               <h2>Heren ondermode</h2><br>
-              Sloggi <br>
-              Mey <br>
-              Hom <br>
-              Calvin Klein <br>
-              Björn Borg <br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.class, merken.naam FROM merken WHERE merken.genre = 'heren' AND merken.class = 'ondermode';";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
             <div class="dropdowncontent" id="dropdowncontent-heren-nachtmode">
               <h2>Heren nachtmode</h2><br>
-              Taubert <br>
-              Mey <br>
-              Hom <br>
-              Calvin Klein <br>
-              Björn Borg <br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.naam, merken.class FROM merken WHERE merken.genre = 'heren' AND merken.class = 'nachtmode'";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
             <div class="dropdowncontent" id="dropdowncontent-heren-badmode">
               <h2>Heren badmode</h2><br>
-              Brunotti <br>
-              Mey <br>
-              Hom <br>
-              Calvin Klein <br>
-              Björn Borg <br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.naam, merken.class FROM merken WHERE merken.genre = 'heren' AND merken.class = 'badmode'";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
             <div class="dropdowncontent" id="dropdowncontent-dames-lingerie">
               <h2>Dames lingerie</h2><br>
-              Anita<br>
-              Antigel<br>
-              Björn Borg<br>
-              B.tempt'd<br>
-              Calvin Klein<br>
-              Chantelle<br>
-              Empreinte<br>
-              Fantasie<br>
-              Freya<br>
-              Implicite<br>
-              L'Aventure<br>
-              Maidenform<br>
-              Marc & Andre<br>
-              Marie-Jo<br>
-              Mey<br>
-              PrimaDonna<br>
-              Rosa Faia<br>
-              Shockabsorber<br>
-              Simone Perele<br>
-              Sloggi<br>
-              Triumph<br>
-              Twist<br>
-              Wacoal<br>
-              Wonderbra<br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.naam, merken.class FROM merken WHERE merken.genre = 'dames' AND merken.class = 'lingerie'";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
             <div class="dropdowncontent" id="dropdowncontent-dames-badmode">
               <h2>Dames badmode</h2><br>
-              Anita<br>
-              Antigel<br>
-              Baku<br>
-              Beachlife<br>
-              Cyell<br>
-              Luli Fama<br>
-              Marc & Andre<br>
-              Marie-Jo<br>
-              Mila<br>
-              Miracle Suit<br>
-              Opera<br>
-              Rosa Faia<br>
-              Seafolly<br>
-              Sunflair<br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.naam, merken.class FROM merken WHERE merken.genre = 'dames' AND merken.class = 'badmode'";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
             <div class="dropdowncontent" id="dropdowncontent-dames-nachtmode">
-              <h2>Dames nachtmode</h2><br>
-              Calvin Klein<br>
-              Cyell<br>
-              Jensen<br>
-              Mey<br>
-              SNURK<br>
-              Taubert<br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.naam, merken.class FROM merken WHERE merken.genre = 'dames' AND merken.class = 'nachtmode'";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
             <div class="dropdowncontent" id="dropdowncontent-dames-accessoires">
               <h2>Dames accessoires</h2><br>
-              Happy Socks<br>
-              Ipanema<br>
-              La Decollette<br>
-              Magic Products<br>
-              Oroblu<br>
-              Soak Wash<br>
-              Wolford<br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.naam, merken.class FROM merken WHERE merken.genre = 'dames' AND merken.class = 'accessoire'";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
             <div class="dropdowncontent" id="dropdowncontent-dames-shapewear">
               <h2>Dames shapewear</h2><br>
-              Magic Products<br>
-              Maidenform<br>
-              Wolford<br>
+                <?php
+                require('./components/dbconn.php');
+                $sql = "SELECT merken.genre, merken.naam, merken.class FROM merken WHERE merken.genre = 'dames' AND merken.class = 'shapewear'";
+                foreach($conn->query($sql, PDO::FETCH_ASSOC) as $row){
+                    $naam = $row['naam'];
+                    echo $naam."<br>";
+                }
+                ?>
             </div>
           </div>
         </div>

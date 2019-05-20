@@ -17,10 +17,24 @@
   text-align: center;
 }
 
+#quillArea{
+    font-size: 1.0rem;
+    font-family: sans-serif;
+    color: #777;
+    padding: 2rem 0;
+    line-height: 2rem;
+}
+
+.Admin_Wijziging_Knop_Image{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
 .Main-Title {
     font-family: sans-serif;
     padding-top: 2rem;
-  }
+}
 
 .Main-Paragraaf {
     font-size: 1.2rem;
@@ -28,10 +42,4 @@
     color: #777;
     padding: 2rem 0;
     line-height: 2rem;
-  }
-
-.Admin_Wijziging_Knop_Image{
-  position: absolute;
-  left: 50%;
-  top: 50%;
 }

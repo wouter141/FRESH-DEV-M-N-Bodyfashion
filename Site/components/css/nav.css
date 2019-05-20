@@ -87,7 +87,7 @@ label {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 906px) {
   .scrolled {
     color: white;
     background-color: #1C1D21;

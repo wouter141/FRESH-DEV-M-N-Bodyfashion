@@ -6,11 +6,12 @@
     <head>
       <?php include('components/header.php'); ?>
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./components/css/contentDashboard.css">
       <title></title>
     </head>
     <body>
+      <?php include('./components/Navbar.php') ?>
       <div class="page-Content">
-        <?php include('./components/Navbar.php') ?>
         <div class="head-title">
           <h1>Login</h1>
         </div>
@@ -30,7 +31,20 @@
                   </div>
                 </form>
             </div>
+          <div class="loginerror">
+              <?php
+              if ($_GET["action"] === "failed"){
+                  echo "<p>Wachtwoord of email is incorrect, probeer het opnieuw.</p>";
+              }
+
+              if ($_GET["action"] === "success") {
+                  echo "<p>Leuk geprobeerd brian/miguel/jesse ;)</p>";
+              }
+              ?>
+          </div>
         </div>
         <?php include('./components/Footer.php'); ?>
     </body>
 </html>
+
+

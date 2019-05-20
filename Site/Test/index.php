@@ -1,37 +1,29 @@
-<?php session_start(); ?>
-<?php
+<!-- Include stylesheet -->
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 
-if(isset($_SESSION['logged_in']))
-    exit(header("Location: /index.php"));
+<!-- Create the editor container -->
+<div class="div1">
+  <div class="editor">
+    <p>Hello World!</p>
+    <p>Some initial <strong>bold</strong> text</p>
+    <p><br></p>
+  </div>
+</div>
 
-?>
+<div class="div2">
+  <div class="editor">
+    <p>Div 2</p>
+    <p>Some initial <strong>bold</strong> text</p>
+    <p><br></p>
+  </div>
+</div>
 
-<!DOCTYPE html>
-<html>
-    <head>
-    </head>
+<!-- Include the Quill library -->
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 
-    <body>
-
-        <div class="content">
-
-            <div class="login">
-                <form action="NewSlider.php" method="post">
-                    <div class="title">Inloggen</div>
-
-                    <label for="email">E-mailadres</label>
-                    <input type="email" name="email" placeholder="Voer uw e-mailadres in" required autofocus>
-                    <br>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" placeholder="Voer uw wachtwoord in" required>
-
-                    <div class="btns">
-                        <button name="submit" type="submit">Volgende</button>
-                    </div>
-                </form>
-            </div>
-
-        </div>
-
-    </body>
-</html>
+<!-- Initialize Quill editor -->
+<script>
+  var quill = new Quill('.editor', {
+    theme: 'snow'
+  });
+</script>

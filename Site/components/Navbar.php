@@ -10,9 +10,9 @@
       <a href="./Contact.php" class="Ancher-Tag"><li class="list-Navigatie">Contact</li></a>
       <a href="https://m-en-n.lingerie-styling.nl/" class="Ancher-Tag" target="_blank"><li class="list-Navigatie">Webshop</li></a>
       <?php
-        $end = session_destroy();
-        if($_SESSION['is_admin']) {
-          echo"<a href='' class='Ancher-Tag login_logout'><li class='list-Navigatie'.".$end.".>Logout</li></a>";
+        if($_SESSION['is_admin'] == 1) {
+          echo"<a href='./logout.php' class='Ancher-Tag login_logout'><li class='list-Navigatie'>Logout</li></a>";
+          echo"<a href='./dashboard.php' class='Ancher-Tag dash_knop'><li class='list-Navigatie'>Dashboard</li></a>";
         }
         else {
           echo"<a href='./login.php' class='Ancher-Tag login_logout'><li class='list-Navigatie'>Login</li></a>";

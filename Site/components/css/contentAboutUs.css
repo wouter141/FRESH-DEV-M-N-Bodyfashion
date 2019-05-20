@@ -33,7 +33,7 @@
   width: 200px;
   border-radius: 50%;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .Text {
@@ -64,6 +64,54 @@
   color: white;
   line-height: 40px;
   padding-left: 20px;
+}
+.Admin_Wijziging_Knop_Image_P1, .Admin_Wijziging_Knop_Image_P2{
+  position: relative;
+  left: 37%;
+}
+
+.Admin_Wijziging_Knop_Image_P3{
+  position: relative;
+  left:40%;
+  width: 40%;
+}
+
+.changeAdres{
+  margin: 30px;
+}
+
+.bottomForm{
+  display: flex;
+  padding-left: 0%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.paraForm{
+}
+
+.Frame{
+  width: 100%;
+  height: 400px;
+}
+
+.losAdres{
+  padding-left: 0%;
+}
+
+.alleDagen{
+  width: 20%;
+  margin-left: 37%;
+}
+
+.alleTijd{
+  width: 20%;
+}
+
+.dag, .tijd{
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 1281px) {
