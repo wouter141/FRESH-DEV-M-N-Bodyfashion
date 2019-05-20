@@ -1,0 +1,60 @@
+.head-title{
+  padding-top: 1%;
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-flex div{
+  text-align: center;
+  width: 50%;
+}
+
+.prijswinnaars-text h1{
+  text-align: center;
+  width: 35%;
+  font-size: 13pt;
+  margin-bottom: 1em;
+}
+
+.prijswinnaars ul{
+  list-style-type: none;
+}
+
+.prijswinnaars-text2{
+  margin-top: 2%;
+}
+
+.GaNaarEenGrootScherm{
+  display: none;
+  text-align: center;
+}
+
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+}
+
+@media (min-width:790px) and (max-width: 800px) {
+}
+
+@media (min-width: 654px) and (max-width: 790px) {
+}
+
+@media (min-width: 0px) and (max-width: 654px) {
+  .prijswinnaars-text{
+    display: none;
+  }
+  .container-flex{
+    display: none;
+  }
+  .GaNaarEenGrootScherm{
+    display: block;
+  }
+}

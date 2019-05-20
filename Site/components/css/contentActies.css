@@ -1,0 +1,155 @@
+.ActiesTop{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ImageActies{
+  height: 100%;
+  text-align: center;
+}
+
+.ActiesButtons{
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 5%;
+  width: auto;
+  box-shadow: 2px 2px 2px grey;
+  display: flex;
+  align-self: center;
+}
+
+.ActiesButtons:hover{
+  background-color: grey
+}
+
+.ActiesButtons a{
+  text-decoration: none;
+  color: white;
+}
+
+.ActiesButtonsOnder a{
+  text-decoration: none;
+  color: white;
+}
+
+.ActiesOnder{
+  border-top: 1px solid black;
+  background-color: ;
+  text-align: center;
+  color: black;
+
+  margin-top: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.ActiesOnder > .ActiesButtonsOnder {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.ActiesButtonsOnder{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 5%;
+  width: auto;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.ActiesButtonsOnder:hover{
+  background-color: grey
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .ActiesButtons{
+    margin: 16px;
+  }
+
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .ActiesButtons{
+    margin: 16px;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ActiesButtons{
+    margin: 16px;
+  }
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .ActiesTop{
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+      justify-content: center;
+  }
+
+  .ActiesButtons{
+    margin: 16px;
+  }
+
+  .ImageActies{
+    display: none;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  ##MyIphone = 375 px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .ActiesTop{
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+      justify-content: center;
+  }
+
+  .ActiesButtons{
+    margin: 16px;
+  }
+  .ImageActies{
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .ActiesTop{
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+      justify-content: center;
+  }
+
+  .ActiesButtons{
+    margin: 16px;
+  }
+  .ImageActies{
+    display: none;
+  }
+}
