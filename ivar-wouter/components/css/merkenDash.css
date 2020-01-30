@@ -1,0 +1,74 @@
+.verwijderBtn, .addBtn{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    margin-top: 6px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.verwijderBtn {
+    background-color: #ff4843;
+}
+.addBtn {
+    background-color: #23ff00;
+}
+.verwijderBtn:hover, .addBtn:hover{
+    color: black;
+    border-color: black;
+}
+.verwijderBtn:hover{
+    background-color: #af0006;
+}
+.addBtn:hover{
+    background-color: #0ba200;
+}
+
+
+
+
+
+
+.merkenTitle{
+    text-align: center;
+}
+
+.HerenEnDames{
+    width: auto;
+    height: 100%;
+    text-align: left;
+    display: flex;
+}
+
+.Heren{
+    width: 35%;
+    margin-left: 10%;
+}
+
+.Dames{
+    width: 35%;
+    margin-left: 5%;
+}
+
+.Naam {
+    padding-left: 20px;
+}
+
+.MerkenRow{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.TitleTable{
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+}

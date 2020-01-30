@@ -1,0 +1,94 @@
+.content-Spaar{
+  display: flex;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.foto-Spaar {
+  background-size: cover;
+  background-position: center top;
+  width: 50%;
+  height: 600px;
+  float: right;
+}
+
+.text-Spaar-2, .text-Spaar-3, .text-Spaar-4{
+  padding-top: 30px;
+}
+
+.quilSpaar{
+  width: 40%;
+}
+
+.Main-Paragraaf{
+  width: 100%;
+  word-wrap: break-word;
+  display: flex;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+
+
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .content-Spaar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto-Spaar{
+    display: none;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  ##MyIphone = 375 px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .content-Spaar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto-Spaar{
+    display: none;
+  }
+}
+@media (max-width: 319px) {
+
+  .content-Spaar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto-Spaar{
+    display: none;
+  }
+}

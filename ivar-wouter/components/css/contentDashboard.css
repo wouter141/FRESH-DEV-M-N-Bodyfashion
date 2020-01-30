@@ -1,0 +1,194 @@
+.page-Content{
+   height: 100%;
+ }
+
+.main-title{
+  position: relative;
+  top: 15%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main-title h1{
+  text-align: center;
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 15%;
+  width: auto;
+   }
+
+.container-flex h2{
+  text-align: center;
+}
+
+.container-content{
+  padding-left: 30px;
+ }
+
+.loginerror p{
+  color: red;
+}
+
+.error{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.content-mailsysteem{
+  padding-left: 10%;
+  padding-top: 30px;
+  position: relative;
+}
+.mails {
+  position: relative;
+  z-index: 10;
+}
+
+.gebruikersbeheer{
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+table, th, td{
+  border-collapse: collapse;
+}
+th{
+  padding-bottom: 10px;
+}
+
+td{
+  padding-bottom: 10px;
+}
+
+
+.mailschrijven{
+  position: fixed;
+  width: 30%;
+  padding-left: 55%;
+  top: 30px;
+
+}
+
+#quillArea{
+  width: 100%;
+}
+
+.berichtenbox {
+  width: 400px;
+}
+
+.user_live{
+  position: absolute;
+  top: 100px;
+  right: 10%;
+}
+
+.icon{
+  align-content: center;
+}
+
+.icon img{
+  width: 80%;
+}
+
+.dashboardimage{
+  position: absolute;
+  left: 1%;
+  top: 50px;
+}
+
+.dashboardimage img{
+  width: 50%;
+}
+
+.socialstats {
+  position: relative;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.social-counter-2{
+  display: block;
+}
+
+.social-counter-2 .count{
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  transition: all 0.5s ease;
+}
+
+.social-counter-2 .count:hover{
+  transform: scale(1.065);
+}
+
+.social-counter-2 .count .icon{
+  background: rgba(0,0,0,0.1);
+  display: inline-block;
+  float: left;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  width: 45px;
+  height: 46px;
+  text-shadow: 0 0 3px rgba(0,0,0,0.1);
+  display: table;
+}
+.social-counter-2 .count .icon i{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.social-counter-2 .count span{
+  display: inline-block;
+  color: #ffffff;
+  margin: 11px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 2px;
+}
+
+.social-counter-2 .count .action-btn{
+  float: right;
+  background: rgba(255,255,255,0.25);
+  color: white;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 11px;
+}
+
+/*== COLORS ==*/
+.social-counter-2 .facebook{background:#3b5999;}
+
+.social-counter-2 .twitter {background:#55acee;}
+
+.social-counter-2 .youtube {background:#cd201f;}
+
+.social-counter-2 .google-plus{background:#dd4b39;}
+
+.social-counter-2 .instagram{background:#e4405f;}
+
+
+.social-counter-2 .rss{background:#f57d00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

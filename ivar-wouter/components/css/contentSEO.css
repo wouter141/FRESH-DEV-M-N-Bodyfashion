@@ -1,0 +1,100 @@
+.page-Content{
+    height: 100%;
+}
+
+.main-title{
+    position: relative;
+    top: 15%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-title h1{
+    text-align: center;
+}
+
+.metadata{
+    position: relative;
+    top: 20%;
+    width: 50%;
+    margin-top: 6%;
+    margin-right: 0;
+}
+
+.metadata h2{
+    text-align: center;
+}
+
+.metaselect{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.metaselect select{
+    display: block;
+    margin: 0 auto;
+}
+
+.metaselect input{
+    display: block;
+    margin: 0 auto;
+}
+
+.metaselectedpage{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-meta{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tooltip{
+    position: absolute;
+    left: 95%;
+}
+
+.tooltip .tooltip-text{
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1.5s;
+    width: 500px;
+    right: 105%;
+    top: -5px;
+}
+
+.tooltip .tooltip-text::after{
+    content: " ";
+    position: absolute;
+    top: 8%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip:hover{
+    cursor: help;
+}
+
+.material-icons.md-36 { font-size: 36px; }

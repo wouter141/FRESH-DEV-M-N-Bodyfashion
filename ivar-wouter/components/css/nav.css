@@ -1,0 +1,230 @@
+nav {
+  background-color: #1C1D21;
+  min-height: 10px;
+  height: 51px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  width: 100%;
+  z-index: 30;
+  transition: 0.8s all ease;
+}
+
+.Ancher-Tag {
+  text-decoration: none;
+  color: white;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 150%;
+  display: none;
+  width: 26px;
+  color: white;
+  text-align: center;
+}
+
+#toggle{
+  display: none;
+}
+
+.List-Nav {
+  list-style: none;
+}
+
+.list-Navigatie {
+    display: inline-block;
+    color: black;
+    padding: 0 1rem;
+    font-family: sans-serif;
+}
+.scrolled {
+  background: none;
+}
+
+.scrolled .list-Navigatie .Ancher-Tag{
+  color: black;
+}
+
+.login_logout {
+  position: absolute;
+  right: 0%;
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 906px) {
+  .scrolled {
+    color: white;
+    background-color: #1C1D21;
+  }
+
+  nav {
+    background-color: #1C1D21;
+    transition: 0s all ease;
+  }
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 150%;
+    display: block;
+    width: 26px;
+    color: white;
+    text-align: center;
+  }
+
+  .List-Nav{
+    display: none;
+    text-align: center;
+    width: 100%;
+    background-color: #1C1D21;
+    padding: 0;
+  }
+
+  .List-Nav a {
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #toggle:checked + .List-Nav{
+    display: block;
+  }
+  .scrolled .list-Navigatie{
+    color: white;
+  }
+  .login_logout {
+    position: inherit;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  ##MyIphone = 375 px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .scrolled {
+    color: white;
+    background-color: #1C1D21;
+  }
+
+  nav {
+    background-color: #1C1D21;
+    transition: 0s all ease;
+  }
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 150%;
+    display: block;
+    width: 26px;
+    color: white;
+    text-align: center;
+  }
+
+  .List-Nav{
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+    background-color: #1C1D21;
+  }
+
+  .List-Nav a {
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .scrolled .list-Navigatie{
+    color: white;
+  }
+  #toggle:checked + .List-Nav{
+    display: block;
+  }
+  .login_logout {
+    position: inherit;
+  }
+}
+
+@media (max-width: 320px) {
+  .scrolled {
+    color: white;
+    background-color: #1C1D21;
+  }
+
+  nav {
+    background-color: #1C1D21;
+  }
+  label {
+    font-size: 26px;
+    line-height: 150%;
+    display: block;
+    width: 26px;
+    color: white;
+    text-align: center;
+  }
+
+  .List-Nav{
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+    background-color: #1C1D21;
+  }
+
+  .List-Nav a {
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #toggle:checked + .List-Nav{
+    display: block;
+  }
+
+  .login_logout {
+    position: inherit;
+  }
+}

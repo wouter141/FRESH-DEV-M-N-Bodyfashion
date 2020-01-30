@@ -1,0 +1,95 @@
+.page-Content{
+    height: 100%;
+    width: 100%;
+}
+
+.main-title{
+    position: relative;
+    top: 15%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-title h1{
+    text-align: center;
+}
+
+.gebruikersbeheer{
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.melding{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+td{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.update{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    height: 25%;
+}
+
+.update-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.updatepadding{
+    padding-left: 20px;
+}
+
+.verwijderBtn, .addBtn{
+    display:inline-block;
+    padding:0.15em 1.2em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.verwijderBtn {
+    background-color: #ff4843;
+}
+.addBtn {
+    background-color: #23ff00;
+}
+.verwijderBtn:hover, .addBtn:hover{
+    color: black;
+    border-color: black;
+}
+.verwijderBtn:hover{
+    background-color: #af0006;
+}
+.addBtn:hover{
+    background-color: #0ba200;
+}
+
